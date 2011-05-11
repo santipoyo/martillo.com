@@ -1,0 +1,3494 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<ew-language date="2011/3/31" version="8.0.0" id="en" name="English" desc="English" author="e.World Technology Ltd.">
+	<global>
+		<phrase id="actiondeleted" value="Deleted"/>
+		<phrase id="actioninserted" value="Inserted"/>
+		<phrase id="actioninsertedgridadd" value="Inserted (Grid-Add)"/>
+		<phrase id="actionupdated" value="Updated"/>
+		<phrase id="actionupdatedgridedit" value="Updated (Grid-Edit)"/>
+		<phrase id="actionupdatedmultiupdate" value="Updated (Multi-Update)"/>
+		<phrase id="activateaccount" value="Your account is activated"/>
+		<phrase id="activatefailed" value="Activation failed"/>
+		<phrase id="add" value="Add to"/>
+		<phrase id="addblankrow" value="Add Blank Row"/>
+		<phrase id="addbtn" value="Add"/>
+		<phrase id="addlink" value="Add"/>
+		<phrase id="addsuccess" value="Add succeeded"/>
+		<phrase id="advancedsearch" value="Advanced Search"/>
+		<phrase id="allrecords" value="All"/>
+		<phrase id="allword" value="All words"/>
+		<phrase id="alwaysask" value="Always ask for my user name and password"/>
+		<phrase id="anyword" value="Any word"/>
+		<phrase id="audittrailautologin" value="autologin"/>
+		<phrase id="audittrailfailedattempt" value="failed attempt: %n"/>
+		<phrase id="audittrailuserloggedin" value="user already logged in"/>
+		<phrase id="audittrailpasswordexpired" value="password expired"/>
+		<phrase id="audittraillogin" value="login"/>
+		<phrase id="audittraillogout" value="logout"/>
+		<phrase id="autologin" value="Auto login until I logout explicitly"/>
+		<phrase id="average" value="Average"/>
+		<phrase id="backtolist" value="Back to List"/>
+		<phrase id="backtologin" value="Back to login page"/>
+		<phrase id="backtomasterpage" value="Back to master page"/>
+		<phrase id="batchdeletebegin" value="*** Batch delete begin ***"/>
+		<phrase id="batchdeleterollback" value="*** Batch delete rollback ***"/>
+		<phrase id="batchdeletesuccess" value="*** Batch delete successful ***"/>
+		<phrase id="batchinsertbegin" value="*** Batch insert begin ***"/>
+		<phrase id="batchinsertrollback" value="*** Batch insert rollback ***"/>
+		<phrase id="batchinsertsuccess" value="*** Batch insert successful ***"/>
+		<phrase id="batchupdatebegin" value="*** Batch update begin ***"/>
+		<phrase id="batchupdaterollback" value="*** Batch update rollback ***"/>
+		<phrase id="batchupdatesuccess" value="*** Batch update successful ***"/>
+		<phrase id="cancelbtn" value="Cancel"/>
+		<phrase id="cancellink" value="Cancel"/>
+		<phrase id="changepwd" value="Change Password"/>
+		<phrase id="changepwdpage" value="Change Password Page"/>
+		<phrase id="changepwdbtn" value="Change Password"/>
+		<phrase id="confirm" value="Confirm"/>
+		<phrase id="confirmbtn" value="Confirm"/>
+		<phrase id="confirmpassword" value="Confirm Password"/>
+		<phrase id="conflictcancellink" value="Cancel"/>
+		<phrase id="copylink" value="Copy"/>
+		<phrase id="count" value="Count"/>
+		<phrase id="customview" value="CUSTOM VIEW"/>
+		<phrase id="delete" value="Delete From"/>
+		<phrase id="deletebtn" value="Confirm Delete"/>
+		<phrase id="deletecancelled" value="Delete cancelled"/>
+		<phrase id="deleteconfirmmsg" value="Do you want to delete this record?" client="1"/>
+		<phrase id="deletelink" value="Delete"/>
+		<phrase id="deletemulticonfirmmsg" value="Do you want to delete the selected records?" client="1"/>
+		<phrase id="deleteselectedlink" value="Delete Selected Records"/>
+		<phrase id="deletesuccess" value="Delete succeeded"/>
+		<phrase id="detaillink" value=""/>
+		<phrase id="detailcount" value="(%c)"/>
+		<phrase id="dupindex" value="Duplicate value '%v' for unique index '%f'"/>
+		<phrase id="dupkey" value="Duplicate primary key: '%f'"/>
+		<phrase id="edit" value="Edit"/>
+		<phrase id="editbtn" value="Edit"/>
+		<phrase id="editlink" value="Edit"/>
+		<phrase id="enternewpassword" value="Please enter new password" client="1"/>
+		<phrase id="enteroldpassword" value="Please enter old password" client="1"/>
+		<phrase id="enterpassword" value="Please enter password" client="1"/>
+		<phrase id="enterpwd" value="Please enter password" client="1"/>
+		<phrase id="enterrequiredfield" value="Please enter required field" client="1"/>
+		<phrase id="entersearchcriteria" value="Please enter search criteria"/>
+		<phrase id="enterusername" value="Please enter username" client="1"/>
+		<phrase id="entervalidatecode" value="Please enter the validation code shown" client="1"/>
+		<phrase id="entersenderemail" value="Please enter sender email" client="1"/>
+		<phrase id="enterpropersenderemail" value="Exceed maximum sender email count or email address incorrect" client="1"/>
+		<phrase id="enterrecipientemail" value="Please enter recipient email" client="1"/>
+		<phrase id="enterproperrecipientemail" value="Exceed maximum recipient email count or email address incorrect" client="1"/>
+		<phrase id="enterproperccemail" value="Exceed maximum cc email count or email address incorrect" client="1"/>
+		<phrase id="enterproperbccemail" value="Exceed maximum bcc email count or email address incorrect" client="1"/>
+		<phrase id="entersubject" value="Please enter subject" client="1"/>
+		<phrase id="emailformsender" value="From"/>
+		<phrase id="emailformrecipient" value="To"/>
+		<phrase id="emailformcc" value="Cc"/>
+		<phrase id="emailformbcc" value="Bcc"/>
+		<phrase id="emailformsubject" value="Subject"/>
+		<phrase id="emailformmessage" value="Message"/>
+		<phrase id="emailformcontenttype" value="Send as"/>
+		<phrase id="emailformcontenttypeurl" value="URL"/>
+		<phrase id="emailformcontenttypehtml" value="HTML"/>
+		<phrase id="enteruid" value="Please enter user ID" client="1"/>
+		<phrase id="entervalidemail" value="Please enter valid Email Address!" client="1"/>
+		<phrase id="exactphrase" value="Exact phrase"/>
+		<phrase id="exceedmaxretry" value="Exceed maximum login retry count. Account is locked. Please try again in %t minutes"/>
+		<phrase id="exceedmaxemailexport" value="Exceed maximum export email count. Please try again later"/>
+		<phrase id="exporttocsv" value="Export to CSV"/>
+		<phrase id="exporttoemail" value="Email" client="1"/>
+		<phrase id="exporttoexcel" value="Export to Excel"/>
+		<phrase id="exporttohtml" value="Export to HTML"/>
+		<phrase id="exporttopdf" value="Export to PDF"/>
+		<phrase id="exporttoword" value="Export to Word"/>
+		<phrase id="exporttoxml" value="Export to XML"/>
+		<phrase id="failedtosendmail" value="Failed to send mail. "/>
+		<phrase id="fieldname" value="Field Name"/>
+		<phrase id="fieldrequiredindicator" value="&lt;span class=&quot;ewRequired&quot;&gt;&amp;nbsp;*&lt;/span&gt;"/>
+		<phrase id="overwritebtn" value="Overwrite"/>
+		<phrase id="overwritelink" value="Overwrite"/>
+		<phrase id="forgotpwd" value="Forgot Password"/>
+		<phrase id="goback" value="Go Back"/>
+		<phrase id="gridaddlink" value="Grid Add"/>
+		<phrase id="gridcancellink" value="Cancel"/>
+		<phrase id="grideditlink" value="Grid Edit"/>
+		<phrase id="gridinsertlink" value="Insert"/>
+		<phrase id="gridsavelink" value="Save"/>
+		<phrase id="hidehighlight" value="Hide highlight" client="1"/>
+		<phrase id="incorrectcreditcard" value="Incorrect credit card number"/>
+		<phrase id="incorrectdateymd" value="Incorrect date, format = yyyy%smm%sdd"/>
+		<phrase id="incorrectdatemdy" value="Incorrect date, format = mm%sdd%syyyy"/>
+		<phrase id="incorrectdatedmy" value="Incorrect date, format = dd%smm%syyyy"/>
+		<phrase id="incorrectshortdateymd" value="Incorrect date, format = yy%smm%sdd"/>
+		<phrase id="incorrectshortdatemdy" value="Incorrect date, format = mm%sdd%syy"/>
+		<phrase id="incorrectshortdatedmy" value="Incorrect date, format = dd%smm%syy"/>
+		<phrase id="incorrectemail" value="Incorrect email" client="1"/>
+		<phrase id="incorrectfield" value="Incorrect field" client="1"/>
+		<phrase id="incorrectfloat" value="Incorrect floating point number" client="1"/>
+		<phrase id="incorrectguid" value="Incorrect GUID" client="1"/>
+		<phrase id="incorrectinteger" value="Incorrect integer" client="1"/>
+		<phrase id="incorrectphone" value="Incorrect phone number" client="1"/>
+		<phrase id="incorrectregexp" value="Regular expression not matched" client="1"/>
+		<phrase id="incorrectrange" value="Number must be between %1 and %2" client="1"/>
+		<phrase id="incorrectssn" value="Incorrect social security number" client="1"/>
+		<phrase id="incorrecttime" value="Incorrect time (hh:mm:ss)" client="1"/>
+		<phrase id="incorrectzip" value="Incorrect ZIP code" client="1"/>
+		<phrase id="inlineaddlink" value="Inline Add"/>
+		<phrase id="inlinecopylink" value="Inline Copy"/>
+		<phrase id="inlineeditlink" value="Inline Edit"/>
+		<phrase id="insertcancelled" value="Insert cancelled"/>
+		<phrase id="insertfailed" value="Insert failed"/>
+		<phrase id="insertlink" value="Insert"/>
+		<phrase id="insertsuccess" value="Insert succeeded"/>
+		<phrase id="invalidemail" value="Invalid Email"/>
+		<phrase id="invalidfield" value="Invalid Field"/>
+		<phrase id="invalidkeyvalue" value="Invalid key value"/>
+		<phrase id="invalidrecord" value="Invalid Record! Key is null" client="1"/>
+		<phrase id="invalidparameter" value="Invalid Parameter"/>
+		<phrase id="invalidpassword" value="Invalid Password"/>
+		<phrase id="invalidnewpassword" value="Invalid New Password"/>
+		<phrase id="invaliduidpwd" value="Incorrect user ID or password"/>
+		<phrase id="keep" value="Keep"/>
+		<phrase id="language" value="Language"/>
+		<phrase id="loading" value="Loading..." client="1"/>
+		<phrase id="login" value="Login"/>
+		<phrase id="logincancelled" value="Login cancelled"/>
+		<phrase id="loginpage" value="Login Page"/>
+		<phrase id="logout" value="Logout"/>
+		<phrase id="masterrecord" value="Master Record: "/>
+		<phrase id="maxfilesize" value="Max. file size (%s bytes) exceeded."/>
+		<phrase id="mismatchpassword" value="Mismatch Password" client="1"/>
+		<phrase id="missinglookuptablename" value="Missing lookup table name"/>
+		<phrase id="missingdisplayfieldname" value="Missing display field name"/>
+		<phrase id="missingdisplayfieldvalue" value="Missing display field value"/>
+		<phrase id="missinguserlevelid" value="Missing User Level ID"/>
+		<phrase id="missinguserlevelname" value="Missing User Level name"/>
+		<phrase id="new" value="New"/>
+		<phrase id="newpassword" value="New Password"/>
+		<phrase id="newvalue" value="New Value"/>
+		<phrase id="next" value="Next"/>
+		<phrase id="noaddrecord" value="No records to be added" client="1"/>
+		<phrase id="nofieldselected" value="No field selected for update" client="1"/>
+		<phrase id="nopermission" value="You do not have permission to access the page."/>
+		<phrase id="noaddpermission" value="You do not have permission to add the record."/>
+		<phrase id="nodeletepermission" value="You do not have permission to delete the record."/>
+		<phrase id="noeditpermission" value="You do not have permission to edit the record."/>
+		<phrase id="norecord" value="No records found"/>
+		<phrase id="norecordforkey" value="No record found for key = "/>
+		<phrase id="norecordselected" value="No records selected" client="1"/>
+		<phrase id="notablegenerated" value="No tables generated"/>
+		<phrase id="of" value="of"/>
+		<phrase id="old" value="Old"/>
+		<phrase id="oldpassword" value="Old Password"/>
+		<phrase id="optionalreadyexist" value="Option already exists"/>
+		<phrase id="page" value="Page"/>
+		<phrase id="pagerfirst" value="First"/>
+		<phrase id="pagerlast" value="Last"/>
+		<phrase id="pagernext" value="Next"/>
+		<phrase id="pagerprevious" value="Previous"/>
+		<phrase id="password" value="Password"/>
+		<phrase id="passwordrequest" value="Password Request"/>
+		<phrase id="passwordchanged" value="Password Changed"/>
+		<phrase id="passwordexpired" value="Password Expired. Please change password."/>
+		<phrase id="permission" value="Permission"/>
+		<phrase id="permissionaddcopy" value="Add/Copy"/>
+		<phrase id="permissiondelete" value="Delete"/>
+		<phrase id="permissionedit" value="Edit"/>
+		<phrase id="permissionlistsearchview" value="List/Search/View"/>
+		<phrase id="permissionlist" value="List"/>
+		<phrase id="permissionsearch" value="Search"/>
+		<phrase id="permissionview" value="View"/>
+		<phrase id="phpuploaderr1" value="The uploaded file exceeds the upload_max_filesize directive in php.ini."/>
+		<phrase id="phpuploaderr2" value="The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in the HTML form."/>
+		<phrase id="phpuploaderr3" value="The uploaded file was only partially uploaded."/>
+		<phrase id="phpuploaderr4" value="No file was uploaded."/>
+		<phrase id="phpuploaderr6" value="Missing a temporary folder."/>
+		<phrase id="phpuploaderr7" value="Failed to write file to disk."/>
+		<phrase id="phpuploaderr8" value="File upload stopped by extension."/>
+		<phrase id="pickdate" value="Pick a date"/>
+		<phrase id="pleaseselect" value="Please Select"/>
+		<phrase id="primarykeyunspecified" value="Primary key unspecified"/>
+		<phrase id="printerfriendly" value="Printer Friendly"/>
+		<phrase id="prev" value="Prev"/>
+		<phrase id="pwdemailsent" value="Password sent to your email"/>
+		<phrase id="quicksearch" value="Quick Search"/>
+		<phrase id="quicksearchbtn" value="Search (*)"/>
+		<phrase id="record" value="Records"/>
+		<phrase id="recordchangedbyotheruser" value="Data has been changed by other user. Click [Reload] to retrieve the changed data (your data in the form will be overwritten) or click [Overwrite] to overwrite the changed data."/>
+		<phrase id="recorddeleted" value="record(s) deleted"/>
+		<phrase id="recordinserted" value="record(s) inserted"/>
+		<phrase id="recordupdated" value="record(s) updated"/>
+		<phrase id="recordsperpage" value="Page Size"/>
+		<phrase id="register" value="Register"/>
+		<phrase id="registerbtn" value="Register"/>
+		<phrase id="registersuccess" value="Registration succeeded"/>
+		<phrase id="registersuccessactivate" value="Registration succeeded. An email has been sent to your email address, please click the link in the email to activate your account."/>
+		<phrase id="registerpage" value="Registration Page"/>
+		<phrase id="reloadbtn" value="Reload"/>
+		<phrase id="reloadlink" value="Reload"/>
+		<phrase id="rememberme" value="Remember me"/>
+		<phrase id="remove" value="Remove"/>
+		<phrase id="replace" value="Replace"/>
+		<phrase id="report" value="Report"/>
+		<phrase id="requestpwdpage" value="Request Password Page"/>
+		<phrase id="reset" value="Reset"/>
+		<phrase id="resetsearch" value="Reset search criteria"/>
+		<phrase id="rptavg" value="Average"/>
+		<phrase id="rptdtlrec" value="Detail Records"/>
+		<phrase id="rptgrandtotal" value="Grand Total"/>
+		<phrase id="rptmax" value="Maximum"/>
+		<phrase id="rptmin" value="Minimum"/>
+		<phrase id="rptsum" value="Sum"/>
+		<phrase id="rptsumhead" value="Summary for"/>
+		<phrase id="saveusername" value="Save my user name"/>
+		<phrase id="search" value="Search"/>
+		<phrase id="sendemailbtn" value="Send"/>
+		<phrase id="sendemailsuccess" value="Email sent successfully" client="1"/>
+		<phrase id="sendpwd" value="Send Password"/>
+		<phrase id="showall" value="Show all"/>
+		<phrase id="showhighlight" value="Show highlight" client="1"/>
+		<phrase id="srchlegend" value="&amp;nbsp;(*)"/>
+		<phrase id="table" value="TABLE"/>
+		<phrase id="tbltypetable" value="Table: "/>
+		<phrase id="tbltypeview" value="View: "/>
+		<phrase id="tbltypecustomview" value="Custom View: "/>
+		<phrase id="tbltypereport" value="Report: "/>
+		<phrase id="to" value="to"/>
+		<phrase id="total" value="Total"/>
+		<phrase id="unauthorizeduserid" value="The current user (%c) is not authorized to assign the user ID (%u)."/>
+		<phrase id="unauthorizedparentuserid" value="The current user (%c) is not authorized to assign the parent user ID (%p)."/>
+		<phrase id="unauthorizedmasteruserid" value="The current user (%c) is not authorized to insert the record. Master filter: %f"/>
+		<phrase id="unmatchedvalue" value="&lt;img src=&quot;%falert-small.gif&quot; alt=&quot;Value does not exist&quot; title=&quot;Value does not exist&quot; width=&quot;16&quot; height=&quot;16&quot; border=&quot;0&quot;&gt;"/>
+		<phrase id="update" value="Update"/>
+		<phrase id="updatebtn" value="Update"/>
+		<phrase id="updatecancelled" value="Update cancelled"/>
+		<phrase id="updatefailed" value="Update failed"/>
+		<phrase id="updatelink" value="Update"/>
+		<phrase id="updateselectedlink" value="Update Selected Records"/>
+		<phrase id="updatesuccess" value="Update succeeded"/>
+		<phrase id="updatevalue" value="Update"/>
+		<phrase id="useremail" value="User Email"/>
+		<phrase id="userexists" value="User already exists"/>
+		<phrase id="userlevel" value="User Level: "/>
+		<phrase id="userleveladministratorname" value="User level name for user level -1 must be 'Administrator'" client="1"/>
+		<phrase id="userlevelpermission" value="User Level Permissions"/>
+		<phrase id="userlevelidinteger" value="User Level ID must be integer" client="1"/>
+		<phrase id="userleveldefaultname" value="User level name for user level 0 must be 'Default'" client="1"/>
+		<phrase id="userlevelidincorrect" value="User defined User Level ID must be larger than 0" client="1"/>
+		<phrase id="userlevelnameincorrect" value="User defined User Level name cannot be 'Administrator' or 'Default'" client="1"/>
+		<phrase id="userloggedin" value="User '%u' already logged in!"/>
+		<phrase id="username" value="User Name"/>
+		<phrase id="userprofilecorrupted" value="User profile is corrupted. Please logout and login again"/>
+		<phrase id="view" value="View"/>
+		<phrase id="viewlink" value="View"/>
+		<phrase id="viewpageaddlink" value="Add"/>
+		<phrase id="viewpagecopylink" value="Copy"/>
+		<phrase id="viewpagedeletelink" value="Delete"/>
+		<phrase id="viewpagedetaillink" value=""/>
+		<phrase id="viewpageeditlink" value="Edit"/>
+		<phrase id="wrongfiletype" value="File type is not allowed." client="1"/>
+		<phrase id="tableorview" value="Tables/Views"/>
+		<phrase id="=" value="="/>
+		<phrase id="&lt;&gt;" value="&lt;&gt;"/>
+		<phrase id="&lt;" value="&lt;"/>
+		<phrase id="&lt;=" value="&lt;="/>
+		<phrase id="&gt;" value="&gt;"/>
+		<phrase id="&gt;=" value="&gt;="/>
+		<phrase id="like" value="contains"/>
+		<phrase id="not like" value="not contains"/>
+		<phrase id="starts with" value="starts with"/>
+		<phrase id="between" value="between"/>
+		<phrase id="and" value="and"/>
+		<phrase id="or" value="or"/>
+	</global>
+	<project><phrase id="footertext" value="&amp;copy;2011 e.World Technology Ltd. All rights reserved."/>
+<menu id="1"><phrase id="menutext" value="pmamap"/>
+</menu>
+<menu id="2"><phrase id="menutext" value="pmartf"/>
+</menu>
+<menu id="3"><phrase id="menutext" value="pmattr"/>
+</menu>
+<menu id="4"><phrase id="menutext" value="pmbmap"/>
+</menu>
+<menu id="5"><phrase id="menutext" value="pmbpmdaac"/>
+</menu>
+<menu id="6"><phrase id="menutext" value="pmbpmdata"/>
+</menu>
+<menu id="7"><phrase id="menutext" value="pmbpmdcsn"/>
+</menu>
+<menu id="8"><phrase id="menutext" value="pmbpmdtrs"/>
+</menu>
+<menu id="9"><phrase id="menutext" value="pmbpmends"/>
+</menu>
+<menu id="10"><phrase id="menutext" value="pmbpmevnt"/>
+</menu>
+<menu id="11"><phrase id="menutext" value="pmbpmflow"/>
+</menu>
+<menu id="12"><phrase id="menutext" value="pmbpmfrmt"/>
+</menu>
+<menu id="13"><phrase id="menutext" value="pmbpmmspt"/>
+</menu>
+<menu id="14"><phrase id="menutext" value="pmbpmoper"/>
+</menu>
+<menu id="15"><phrase id="menutext" value="pmbpmproc"/>
+</menu>
+<menu id="16"><phrase id="menutext" value="pmbpmprvd"/>
+</menu>
+<menu id="17"><phrase id="menutext" value="pmbpmrflw"/>
+</menu>
+<menu id="18"><phrase id="menutext" value="pmbpmrsrc"/>
+</menu>
+<menu id="19"><phrase id="menutext" value="pmbpms"/>
+</menu>
+<menu id="20"><phrase id="menutext" value="pmbpmsync"/>
+</menu>
+<menu id="21"><phrase id="menutext" value="pmbpmvarb"/>
+</menu>
+<menu id="22"><phrase id="menutext" value="pmbrnc"/>
+</menu>
+<menu id="23"><phrase id="menutext" value="pmcdmassc"/>
+</menu>
+<menu id="24"><phrase id="menutext" value="pmcdmdtsc"/>
+</menu>
+<menu id="25"><phrase id="menutext" value="pmcdmentt"/>
+</menu>
+<menu id="26"><phrase id="menutext" value="pmcdminhr"/>
+</menu>
+<menu id="27"><phrase id="menutext" value="pmcdmlink"/>
+</menu>
+<menu id="28"><phrase id="menutext" value="pmcdmprop"/>
+</menu>
+<menu id="29"><phrase id="menutext" value="pmcdmrlsh"/>
+</menu>
+<menu id="30"><phrase id="menutext" value="pmchck"/>
+</menu>
+<menu id="31"><phrase id="menutext" value="pmclss"/>
+</menu>
+<menu id="32"><phrase id="menutext" value="pmcmap"/>
+</menu>
+<menu id="33"><phrase id="menutext" value="pmcnfg"/>
+</menu>
+<menu id="34"><phrase id="menutext" value="pmcont"/>
+</menu>
+<menu id="35"><phrase id="menutext" value="pmdbms"/>
+</menu>
+<menu id="36"><phrase id="menutext" value="pmdflt"/>
+</menu>
+<menu id="37"><phrase id="menutext" value="pmdiag"/>
+</menu>
+<menu id="38"><phrase id="menutext" value="pmdtsc"/>
+</menu>
+<menu id="39"><phrase id="menutext" value="pmdvtl"/>
+</menu>
+<menu id="40"><phrase id="menutext" value="pmemdl"/>
+</menu>
+<menu id="41"><phrase id="menutext" value="pmeobj"/>
+</menu>
+<menu id="42"><phrase id="menutext" value="pmexas"/>
+</menu>
+<menu id="43"><phrase id="menutext" value="pmfilo"/>
+</menu>
+<menu id="44"><phrase id="menutext" value="pmfldr"/>
+</menu>
+<menu id="45"><phrase id="menutext" value="pmgusr"/>
+</menu>
+<menu id="46"><phrase id="menutext" value="pmilmacol"/>
+</menu>
+<menu id="47"><phrase id="menutext" value="pmilmartc"/>
+</menu>
+<menu id="48"><phrase id="menutext" value="pmilmbprc"/>
+</menu>
+<menu id="49"><phrase id="menutext" value="pmilmccdb"/>
+</menu>
+<menu id="50"><phrase id="menutext" value="pmilmdaap"/>
+</menu>
+<menu id="51"><phrase id="menutext" value="pmilmdaln"/>
+</menu>
+<menu id="52"><phrase id="menutext" value="pmilmdbin"/>
+</menu>
+<menu id="53"><phrase id="menutext" value="pmilmdbou"/>
+</menu>
+<menu id="54"><phrase id="menutext" value="pmilmdcnt"/>
+</menu>
+<menu id="55"><phrase id="menutext" value="pmilmdscl"/>
+</menu>
+<menu id="56"><phrase id="menutext" value="pmilmdsjn"/>
+</menu>
+<menu id="57"><phrase id="menutext" value="pmilmdtbs"/>
+</menu>
+<menu id="58"><phrase id="menutext" value="pmilmdtcl"/>
+</menu>
+<menu id="59"><phrase id="menutext" value="pmilmdtfl"/>
+</menu>
+<menu id="60"><phrase id="menutext" value="pmilmdtlu"/>
+</menu>
+<menu id="61"><phrase id="menutext" value="pmilmdtqe"/>
+</menu>
+<menu id="62"><phrase id="menutext" value="pmilmevsc"/>
+</menu>
+<menu id="63"><phrase id="menutext" value="pmilmffil"/>
+</menu>
+<menu id="64"><phrase id="menutext" value="pmilmffou"/>
+</menu>
+<menu id="65"><phrase id="menutext" value="pmilmgdou"/>
+</menu>
+<menu id="66"><phrase id="menutext" value="pmilmglnk"/>
+</menu>
+<menu id="67"><phrase id="menutext" value="pmilmpckg"/>
+</menu>
+<menu id="68"><phrase id="menutext" value="pmilmprmt"/>
+</menu>
+<menu id="69"><phrase id="menutext" value="pmilmproc"/>
+</menu>
+<menu id="70"><phrase id="menutext" value="pmilmpubl"/>
+</menu>
+<menu id="71"><phrase id="menutext" value="pmilmrprc"/>
+</menu>
+<menu id="72"><phrase id="menutext" value="pmilmscex"/>
+</menu>
+<menu id="73"><phrase id="menutext" value="pmilmscol"/>
+</menu>
+<menu id="74"><phrase id="menutext" value="pmilmsubs"/>
+</menu>
+<menu id="75"><phrase id="menutext" value="pmilmtprc"/>
+</menu>
+<menu id="76"><phrase id="menutext" value="pmilmtren"/>
+</menu>
+<menu id="77"><phrase id="menutext" value="pmilmxdoc"/>
+</menu>
+<menu id="78"><phrase id="menutext" value="pmilmxmou"/>
+</menu>
+<menu id="79"><phrase id="menutext" value="pmlatt"/>
+</menu>
+<menu id="80"><phrase id="menutext" value="pmlbin"/>
+</menu>
+<menu id="81"><phrase id="menutext" value="pmlibr"/>
+</menu>
+<menu id="82"><phrase id="menutext" value="pmlock"/>
+</menu>
+<menu id="83"><phrase id="menutext" value="pmlrrs"/>
+</menu>
+<menu id="84"><phrase id="menutext" value="pmlsrp"/>
+</menu>
+<menu id="85"><phrase id="menutext" value="pmobjt"/>
+</menu>
+<menu id="86"><phrase id="menutext" value="pmocnf"/>
+</menu>
+<menu id="87"><phrase id="menutext" value="pmolog"/>
+</menu>
+<menu id="88"><phrase id="menutext" value="pmoomactn"/>
+</menu>
+<menu id="89"><phrase id="menutext" value="pmoomactv"/>
+</menu>
+<menu id="90"><phrase id="menutext" value="pmoomanot"/>
+</menu>
+<menu id="91"><phrase id="menutext" value="pmoomassc"/>
+</menu>
+<menu id="92"><phrase id="menutext" value="pmoomatvl"/>
+</menu>
+<menu id="93"><phrase id="menutext" value="pmoomclnk"/>
+</menu>
+<menu id="94"><phrase id="menutext" value="pmoomcmpi"/>
+</menu>
+<menu id="95"><phrase id="menutext" value="pmoomcomp"/>
+</menu>
+<menu id="96"><phrase id="menutext" value="pmoomcsfr"/>
+</menu>
+<menu id="97"><phrase id="menutext" value="pmoomdcsn"/>
+</menu>
+<menu id="98"><phrase id="menutext" value="pmoomdtsc"/>
+</menu>
+<menu id="99"><phrase id="menutext" value="pmoomends"/>
+</menu>
+<menu id="100"><phrase id="menutext" value="pmoomgnrl"/>
+</menu>
+<menu id="101"><phrase id="menutext" value="pmoomiact"/>
+</menu>
+<menu id="102"><phrase id="menutext" value="pmoomiapm"/>
+</menu>
+<menu id="103"><phrase id="menutext" value="pmoomifrg"/>
+</menu>
+<menu id="104"><phrase id="menutext" value="pmoomilnk"/>
+</menu>
+<menu id="105"><phrase id="menutext" value="pmoomiref"/>
+</menu>
+<menu id="106"><phrase id="menutext" value="pmoommssg"/>
+</menu>
+<menu id="107"><phrase id="menutext" value="pmoommthd"/>
+</menu>
+<menu id="108"><phrase id="menutext" value="pmoomoapm"/>
+</menu>
+<menu id="109"><phrase id="menutext" value="pmoomobjt"/>
+</menu>
+<menu id="110"><phrase id="menutext" value="pmoomobst"/>
+</menu>
+<menu id="111"><phrase id="menutext" value="pmoomparm"/>
+</menu>
+<menu id="112"><phrase id="menutext" value="pmoompart"/>
+</menu>
+<menu id="113"><phrase id="menutext" value="pmoomport"/>
+</menu>
+<menu id="114"><phrase id="menutext" value="pmoomstat"/>
+</menu>
+<menu id="115"><phrase id="menutext" value="pmoomsync"/>
+</menu>
+<menu id="116"><phrase id="menutext" value="pmoomtprm"/>
+</menu>
+<menu id="117"><phrase id="menutext" value="pmoomtprv"/>
+</menu>
+<menu id="118"><phrase id="menutext" value="pmoomvarb"/>
+</menu>
+<menu id="119"><phrase id="menutext" value="pmopts"/>
+</menu>
+<menu id="120"><phrase id="menutext" value="pmpctf"/>
+</menu>
+<menu id="121"><phrase id="menutext" value="pmpdmabdt"/>
+</menu>
+<menu id="122"><phrase id="menutext" value="pmpdmadpr"/>
+</menu>
+<menu id="123"><phrase id="menutext" value="pmpdmcidx"/>
+</menu>
+<menu id="124"><phrase id="menutext" value="pmpdmdbpk"/>
+</menu>
+<menu id="125"><phrase id="menutext" value="pmpdmdtbs"/>
+</menu>
+<menu id="126"><phrase id="menutext" value="pmpdmgrpe"/>
+</menu>
+<menu id="127"><phrase id="menutext" value="pmpdmindx"/>
+</menu>
+<menu id="128"><phrase id="menutext" value="pmpdmjidx"/>
+</menu>
+<menu id="129"><phrase id="menutext" value="pmpdmmeas"/>
+</menu>
+<menu id="130"><phrase id="menutext" value="pmpdmnmsp"/>
+</menu>
+<menu id="131"><phrase id="menutext" value="pmpdmparm"/>
+</menu>
+<menu id="132"><phrase id="menutext" value="pmpdmperm"/>
+</menu>
+<menu id="133"><phrase id="menutext" value="pmpdmpkcu"/>
+</menu>
+<menu id="134"><phrase id="menutext" value="pmpdmpkex"/>
+</menu>
+<menu id="135"><phrase id="menutext" value="pmpdmpkpr"/>
+</menu>
+<menu id="136"><phrase id="menutext" value="pmpdmpkty"/>
+</menu>
+<menu id="137"><phrase id="menutext" value="pmpdmpkva"/>
+</menu>
+<menu id="138"><phrase id="menutext" value="pmpdmprct"/>
+</menu>
+<menu id="139"><phrase id="menutext" value="pmpdmproc"/>
+</menu>
+<menu id="140"><phrase id="menutext" value="pmpdmprof"/>
+</menu>
+<menu id="141"><phrase id="menutext" value="pmpdmrefr"/>
+</menu>
+<menu id="142"><phrase id="menutext" value="pmpdmrole"/>
+</menu>
+<menu id="143"><phrase id="menutext" value="pmpdmrscl"/>
+</menu>
+<menu id="144"><phrase id="menutext" value="pmpdmsqnc"/>
+</menu>
+<menu id="145"><phrase id="menutext" value="pmpdmsynm"/>
+</menu>
+<menu id="146"><phrase id="menutext" value="pmpdmtabl"/>
+</menu>
+<menu id="147"><phrase id="menutext" value="pmpdmtkey"/>
+</menu>
+<menu id="148"><phrase id="menutext" value="pmpdmtrgi"/>
+</menu>
+<menu id="149"><phrase id="menutext" value="pmpdmtrgr"/>
+</menu>
+<menu id="150"><phrase id="menutext" value="pmpdmtrgt"/>
+</menu>
+<menu id="151"><phrase id="menutext" value="pmpdmuser"/>
+</menu>
+<menu id="152"><phrase id="menutext" value="pmpdmvidx"/>
+</menu>
+<menu id="153"><phrase id="menutext" value="pmpdmview"/>
+</menu>
+<menu id="154"><phrase id="menutext" value="pmpdmviwc"/>
+</menu>
+<menu id="155"><phrase id="menutext" value="pmpdmvref"/>
+</menu>
+<menu id="156"><phrase id="menutext" value="pmpdmwprm"/>
+</menu>
+<menu id="157"><phrase id="menutext" value="pmpdmwsop"/>
+</menu>
+<menu id="158"><phrase id="menutext" value="pmpdmwsrv"/>
+</menu>
+<menu id="159"><phrase id="menutext" value="pmperm"/>
+</menu>
+<menu id="160"><phrase id="menutext" value="pmpsel"/>
+</menu>
+<menu id="161"><phrase id="menutext" value="pmpslm"/>
+</menu>
+<menu id="162"><phrase id="menutext" value="pmrepl"/>
+</menu>
+<menu id="163"><phrase id="menutext" value="pmrlsh"/>
+</menu>
+<menu id="164"><phrase id="menutext" value="pmrltn"/>
+</menu>
+<menu id="165"><phrase id="menutext" value="pmrltx"/>
+</menu>
+<menu id="166"><phrase id="menutext" value="pmrmap"/>
+</menu>
+<menu id="167"><phrase id="menutext" value="pmrplg"/>
+</menu>
+<menu id="168"><phrase id="menutext" value="pmrprt"/>
+</menu>
+<menu id="169"><phrase id="menutext" value="pmrqmgrpe"/>
+</menu>
+<menu id="170"><phrase id="menutext" value="pmrqmrqmt"/>
+</menu>
+<menu id="171"><phrase id="menutext" value="pmrqmtlnk"/>
+</menu>
+<menu id="172"><phrase id="menutext" value="pmrqmuser"/>
+</menu>
+<menu id="173"><phrase id="menutext" value="pmrqmusra"/>
+</menu>
+<menu id="174"><phrase id="menutext" value="pmrule"/>
+</menu>
+<menu id="175"><phrase id="menutext" value="pmseqn"/>
+</menu>
+<menu id="176"><phrase id="menutext" value="pmsmap"/>
+</menu>
+<menu id="177"><phrase id="menutext" value="pmsrpl"/>
+</menu>
+<menu id="178"><phrase id="menutext" value="pmstng"/>
+</menu>
+<menu id="179"><phrase id="menutext" value="pmtemp"/>
+</menu>
+<menu id="180"><phrase id="menutext" value="pmtext"/>
+</menu>
+<menu id="181"><phrase id="menutext" value="pmtmp 2"/>
+</menu>
+<menu id="182"><phrase id="menutext" value="pmtrfm"/>
+</menu>
+<menu id="183"><phrase id="menutext" value="pmtrfs"/>
+</menu>
+<menu id="184"><phrase id="menutext" value="pmtrft"/>
+</menu>
+<menu id="185"><phrase id="menutext" value="pmuser"/>
+</menu>
+<menu id="186"><phrase id="menutext" value="pmxdoc"/>
+</menu>
+<menu id="187"><phrase id="menutext" value="pmxfil"/>
+</menu>
+<menu id="188"><phrase id="menutext" value="pmxnsp"/>
+</menu>
+<menu id="189"><phrase id="menutext" value="pmxsmaitm"/>
+</menu>
+<menu id="190"><phrase id="menutext" value="pmxsmannt"/>
+</menu>
+<menu id="191"><phrase id="menutext" value="pmxsmcmap"/>
+</menu>
+<menu id="192"><phrase id="menutext" value="pmxsmcmpt"/>
+</menu>
+<menu id="193"><phrase id="menutext" value="pmxsmdtsc"/>
+</menu>
+<menu id="194"><phrase id="menutext" value="pmxsmentt"/>
+</menu>
+<menu id="195"><phrase id="menutext" value="pmxsmlang"/>
+</menu>
+<menu id="196"><phrase id="menutext" value="pmxsmxtrn"/>
+</menu>
+<menu id="197"><phrase id="menutext" value="sec perfil"/>
+</menu>
+<menu id="198"><phrase id="menutext" value="sec usuarios"/>
+</menu>
+<menu id="199"><phrase id="menutext" value="sis producto"/>
+</menu>
+<table id="pmamap"><phrase id="tblcaption" value="pmamap"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="crtr"><phrase id="fldcaption" value="CRTR"/>
+</field>
+<field id="dela"><phrase id="fldcaption" value="DELA"/>
+</field>
+<field id="delb"><phrase id="fldcaption" value="DELB"/>
+</field>
+<field id="expr"><phrase id="fldcaption" value="EXPR"/>
+</field>
+<field id="insa"><phrase id="fldcaption" value="INSA"/>
+</field>
+<field id="insb"><phrase id="fldcaption" value="INSB"/>
+</field>
+<field id="revb"><phrase id="fldcaption" value="REVB"/>
+</field>
+<field id="sela"><phrase id="fldcaption" value="SELA"/>
+</field>
+<field id="selb"><phrase id="fldcaption" value="SELB"/>
+</field>
+</table>
+<table id="pmartf"><phrase id="tblcaption" value="pmartf"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="encd"><phrase id="fldcaption" value="ENCD"/>
+</field>
+<field id="ptpl"><phrase id="fldcaption" value="PTPL"/>
+</field>
+</table>
+<table id="pmattr"><phrase id="tblcaption" value="pmattr"/>
+<field id="attr"><phrase id="fldcaption" value="ATTR"/>
+</field>
+<field id="clss"><phrase id="fldcaption" value="CLSS"/>
+</field>
+<field id="dsid"><phrase id="fldcaption" value="DSID"/>
+</field>
+<field id="name"><phrase id="fldcaption" value="NAME"/>
+</field>
+<field id="code"><phrase id="fldcaption" value="CODE"/>
+</field>
+<field id="ctyp"><phrase id="fldcaption" value="CTYP"/>
+</field>
+<field id="flgs"><phrase id="fldcaption" value="FLGS"/>
+</field>
+<field id="tnam"><phrase id="fldcaption" value="TNAM"/>
+</field>
+<field id="cnam"><phrase id="fldcaption" value="CNAM"/>
+</field>
+</table>
+<table id="pmbmap"><phrase id="tblcaption" value="pmbmap"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="crtr"><phrase id="fldcaption" value="CRTR"/>
+</field>
+<field id="qury"><phrase id="fldcaption" value="QURY"/>
+</field>
+</table>
+<table id="pmbpmdaac"><phrase id="tblcaption" value="pmbpmdaac"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="crac"><phrase id="fldcaption" value="CRAC"/>
+</field>
+<field id="dlac"><phrase id="fldcaption" value="DLAC"/>
+</field>
+<field id="rdac"><phrase id="fldcaption" value="RDAC"/>
+</field>
+<field id="upac"><phrase id="fldcaption" value="UPAC"/>
+</field>
+</table>
+<table id="pmbpmdata"><phrase id="tblcaption" value="pmbpmdata"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="dtyp"><phrase id="fldcaption" value="DTYP"/>
+</field>
+</table>
+<table id="pmbpmdcsn"><phrase id="tblcaption" value="pmbpmdcsn"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="expa"><phrase id="fldcaption" value="EXPA"/>
+</field>
+<field id="expr"><phrase id="fldcaption" value="EXPR"/>
+</field>
+</table>
+<table id="pmbpmdtrs"><phrase id="tblcaption" value="pmbpmdtrs"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="expr"><phrase id="fldcaption" value="EXPR"/>
+</field>
+</table>
+<table id="pmbpmends"><phrase id="tblcaption" value="pmbpmends"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="etyp"><phrase id="fldcaption" value="ETYP"/>
+</field>
+</table>
+<table id="pmbpmevnt"><phrase id="tblcaption" value="pmbpmevnt"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="dlnt"><phrase id="fldcaption" value="DLNT"/>
+</field>
+<field id="txpr"><phrase id="fldcaption" value="TXPR"/>
+</field>
+</table>
+<table id="pmbpmflow"><phrase id="tblcaption" value="pmbpmflow"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="cnda"><phrase id="fldcaption" value="CNDA"/>
+</field>
+<field id="cnde"><phrase id="fldcaption" value="CNDE"/>
+</field>
+<field id="ftyp"><phrase id="fldcaption" value="FTYP"/>
+</field>
+<field id="tspt"><phrase id="fldcaption" value="TSPT"/>
+</field>
+<field id="udef"><phrase id="fldcaption" value="UDEF"/>
+</field>
+</table>
+<table id="pmbpmfrmt"><phrase id="tblcaption" value="pmbpmfrmt"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="defn"><phrase id="fldcaption" value="DEFN"/>
+</field>
+<field id="durl"><phrase id="fldcaption" value="DURL"/>
+</field>
+<field id="fmtt"><phrase id="fldcaption" value="FMTT"/>
+</field>
+</table>
+<table id="pmbpmmspt"><phrase id="tblcaption" value="pmbpmmspt"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="dttp"><phrase id="fldcaption" value="DTTP"/>
+</field>
+<field id="etyp"><phrase id="fldcaption" value="ETYP"/>
+</field>
+</table>
+<table id="pmbpmoper"><phrase id="tblcaption" value="pmbpmoper"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="disp"><phrase id="fldcaption" value="DISP"/>
+</field>
+<field id="inpn"><phrase id="fldcaption" value="INPN"/>
+</field>
+<field id="optp"><phrase id="fldcaption" value="OPTP"/>
+</field>
+<field id="outn"><phrase id="fldcaption" value="OUTN"/>
+</field>
+</table>
+<table id="pmbpmproc"><phrase id="tblcaption" value="pmbpmproc"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="actn"><phrase id="fldcaption" value="ACTN"/>
+</field>
+<field id="actp"><phrase id="fldcaption" value="ACTP"/>
+</field>
+<field id="comm"><phrase id="fldcaption" value="COMM"/>
+</field>
+<field id="drtn"><phrase id="fldcaption" value="DRTN"/>
+</field>
+<field id="fopt"><phrase id="fldcaption" value="FOPT"/>
+</field>
+<field id="ityp"><phrase id="fldcaption" value="ITYP"/>
+</field>
+<field id="ltyp"><phrase id="fldcaption" value="LTYP"/>
+</field>
+<field id="lxpr"><phrase id="fldcaption" value="LXPR"/>
+</field>
+<field id="nbid"><phrase id="fldcaption" value="NBID"/>
+</field>
+<field id="nmsp"><phrase id="fldcaption" value="NMSP"/>
+</field>
+<field id="reus"><phrase id="fldcaption" value="REUS"/>
+</field>
+<field id="tmot"><phrase id="fldcaption" value="TMOT"/>
+</field>
+</table>
+<table id="pmbpmprvd"><phrase id="tblcaption" value="pmbpmprvd"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="eurl"><phrase id="fldcaption" value="EURL"/>
+</field>
+<field id="flnm"><phrase id="fldcaption" value="FLNM"/>
+</field>
+<field id="smlg"><phrase id="fldcaption" value="SMLG"/>
+</field>
+<field id="smtx"><phrase id="fldcaption" value="SMTX"/>
+</field>
+<field id="tnpf"><phrase id="fldcaption" value="TNPF"/>
+</field>
+<field id="tnsp"><phrase id="fldcaption" value="TNSP"/>
+</field>
+</table>
+<table id="pmbpmrflw"><phrase id="tblcaption" value="pmbpmrflw"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="cnda"><phrase id="fldcaption" value="CNDA"/>
+</field>
+<field id="cnde"><phrase id="fldcaption" value="CNDE"/>
+</field>
+<field id="crac"><phrase id="fldcaption" value="CRAC"/>
+</field>
+<field id="dlac"><phrase id="fldcaption" value="DLAC"/>
+</field>
+<field id="ftyp"><phrase id="fldcaption" value="FTYP"/>
+</field>
+<field id="rdac"><phrase id="fldcaption" value="RDAC"/>
+</field>
+<field id="udef"><phrase id="fldcaption" value="UDEF"/>
+</field>
+<field id="upac"><phrase id="fldcaption" value="UPAC"/>
+</field>
+</table>
+<table id="pmbpmrsrc"><phrase id="tblcaption" value="pmbpmrsrc"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="nbid"><phrase id="fldcaption" value="NBID"/>
+</field>
+</table>
+<table id="pmbpms"><phrase id="tblcaption" value="pmbpms"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="cglb"><phrase id="fldcaption" value="CGLB"/>
+</field>
+<field id="fmly"><phrase id="fldcaption" value="FMLY"/>
+</field>
+<field id="sfml"><phrase id="fldcaption" value="SFML"/>
+</field>
+</table>
+<table id="pmbpmsync"><phrase id="tblcaption" value="pmbpmsync"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="actn"><phrase id="fldcaption" value="ACTN"/>
+</field>
+<field id="tmot"><phrase id="fldcaption" value="TMOT"/>
+</field>
+</table>
+<table id="pmbpmvarb"><phrase id="tblcaption" value="pmbpmvarb"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="cnst"><phrase id="fldcaption" value="CNST"/>
+</field>
+<field id="etyp"><phrase id="fldcaption" value="ETYP"/>
+</field>
+<field id="ptyp"><phrase id="fldcaption" value="PTYP"/>
+</field>
+<field id="vale"><phrase id="fldcaption" value="VALE"/>
+</field>
+</table>
+<table id="pmbrnc"><phrase id="tblcaption" value="pmbrnc"/>
+<field id="brnc"><phrase id="fldcaption" value="BRNC"/>
+</field>
+<field id="name"><phrase id="fldcaption" value="NAME"/>
+</field>
+<field id="code"><phrase id="fldcaption" value="CODE"/>
+</field>
+<field id="cmmt"><phrase id="fldcaption" value="CMMT"/>
+</field>
+<field id="bbrc"><phrase id="fldcaption" value="BBRC"/>
+</field>
+<field id="ocus"><phrase id="fldcaption" value="OCUS"/>
+</field>
+<field id="ocdt"><phrase id="fldcaption" value="OCDT"/>
+</field>
+<field id="omus"><phrase id="fldcaption" value="OMUS"/>
+</field>
+<field id="omdt"><phrase id="fldcaption" value="OMDT"/>
+</field>
+</table>
+<table id="pmcdmassc"><phrase id="tblcaption" value="pmcdmassc"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="gene"><phrase id="fldcaption" value="GENE"/>
+</field>
+<field id="nbrc"><phrase id="fldcaption" value="NBRC"/>
+</field>
+</table>
+<table id="pmcdmdtsc"><phrase id="tblcaption" value="pmcdmdtsc"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="actp"><phrase id="fldcaption" value="ACTP"/>
+</field>
+<field id="dtsr"><phrase id="fldcaption" value="DTSR"/>
+</field>
+<field id="lgin"><phrase id="fldcaption" value="LGIN"/>
+</field>
+<field id="mtyp"><phrase id="fldcaption" value="MTYP"/>
+</field>
+<field id="pswd"><phrase id="fldcaption" value="PSWD"/>
+</field>
+</table>
+<table id="pmcdmentt"><phrase id="tblcaption" value="pmcdmentt"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="gene"><phrase id="fldcaption" value="GENE"/>
+</field>
+<field id="nbrc"><phrase id="fldcaption" value="NBRC"/>
+</field>
+</table>
+<table id="pmcdminhr"><phrase id="tblcaption" value="pmcdminhr"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="comp"><phrase id="fldcaption" value="COMP"/>
+</field>
+<field id="excl"><phrase id="fldcaption" value="EXCL"/>
+</field>
+<field id="inha"><phrase id="fldcaption" value="INHA"/>
+</field>
+</table>
+<table id="pmcdmlink"><phrase id="tblcaption" value="pmcdmlink"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="card"><phrase id="fldcaption" value="CARD"/>
+</field>
+<field id="idtf"><phrase id="fldcaption" value="IDTF"/>
+</field>
+<field id="rnam"><phrase id="fldcaption" value="RNAM"/>
+</field>
+</table>
+<table id="pmcdmprop"><phrase id="tblcaption" value="pmcdmprop"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="disp"><phrase id="fldcaption" value="DISP"/>
+</field>
+<field id="mand"><phrase id="fldcaption" value="MAND"/>
+</field>
+</table>
+<table id="pmcdmrlsh"><phrase id="tblcaption" value="pmcdmrlsh"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="crda"><phrase id="fldcaption" value="CRDA"/>
+</field>
+<field id="crdb"><phrase id="fldcaption" value="CRDB"/>
+</field>
+<field id="dmnt"><phrase id="fldcaption" value="DMNT"/>
+</field>
+<field id="gene"><phrase id="fldcaption" value="GENE"/>
+</field>
+<field id="nama"><phrase id="fldcaption" value="NAMA"/>
+</field>
+<field id="namb"><phrase id="fldcaption" value="NAMB"/>
+</field>
+<field id="relt"><phrase id="fldcaption" value="RELT"/>
+</field>
+</table>
+<table id="pmchck"><phrase id="tblcaption" value="pmchck"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="arsz"><phrase id="fldcaption" value="ARSZ"/>
+</field>
+<field id="avgl"><phrase id="fldcaption" value="AVGL"/>
+</field>
+<field id="ckcn"><phrase id="fldcaption" value="CKCN"/>
+</field>
+<field id="comp"><phrase id="fldcaption" value="COMP"/>
+</field>
+<field id="crul"><phrase id="fldcaption" value="CRUL"/>
+</field>
+<field id="ctxt"><phrase id="fldcaption" value="CTXT"/>
+</field>
+<field id="disp"><phrase id="fldcaption" value="DISP"/>
+</field>
+<field id="drvd"><phrase id="fldcaption" value="DRVD"/>
+</field>
+<field id="dstv"><phrase id="fldcaption" value="DSTV"/>
+</field>
+<field id="dttp"><phrase id="fldcaption" value="DTTP"/>
+</field>
+<field id="dval"><phrase id="fldcaption" value="DVAL"/>
+</field>
+<field id="frmt"><phrase id="fldcaption" value="FRMT"/>
+</field>
+<field id="frzn"><phrase id="fldcaption" value="FRZN"/>
+</field>
+<field id="hval"><phrase id="fldcaption" value="HVAL"/>
+</field>
+<field id="idnt"><phrase id="fldcaption" value="IDNT"/>
+</field>
+<field id="init"><phrase id="fldcaption" value="INIT"/>
+</field>
+<field id="jvnm"><phrase id="fldcaption" value="JVNM"/>
+</field>
+<field id="lowr"><phrase id="fldcaption" value="LOWR"/>
+</field>
+<field id="lval"><phrase id="fldcaption" value="LVAL"/>
+</field>
+<field id="mand"><phrase id="fldcaption" value="MAND"/>
+</field>
+<field id="mlen"><phrase id="fldcaption" value="MLEN"/>
+</field>
+<field id="mult"><phrase id="fldcaption" value="MULT"/>
+</field>
+<field id="nmdf"><phrase id="fldcaption" value="NMDF"/>
+</field>
+<field id="nulv"><phrase id="fldcaption" value="NULV"/>
+</field>
+<field id="opts"><phrase id="fldcaption" value="OPTS"/>
+</field>
+<field id="pcgn"><phrase id="fldcaption" value="PCGN"/>
+</field>
+<field id="pcod"><phrase id="fldcaption" value="PCOD"/>
+</field>
+<field id="pdtp"><phrase id="fldcaption" value="PDTP"/>
+</field>
+<field id="pers"><phrase id="fldcaption" value="PERS"/>
+</field>
+<field id="pmln"><phrase id="fldcaption" value="PMLN"/>
+</field>
+<field id="pprc"><phrase id="fldcaption" value="PPRC"/>
+</field>
+<field id="prec"><phrase id="fldcaption" value="PREC"/>
+</field>
+<field id="srul"><phrase id="fldcaption" value="SRUL"/>
+</field>
+<field id="sttc"><phrase id="fldcaption" value="STTC"/>
+</field>
+<field id="unit"><phrase id="fldcaption" value="UNIT"/>
+</field>
+<field id="uppr"><phrase id="fldcaption" value="UPPR"/>
+</field>
+<field id="vals"><phrase id="fldcaption" value="VALS"/>
+</field>
+<field id="visi"><phrase id="fldcaption" value="VISI"/>
+</field>
+<field id="vltl"><phrase id="fldcaption" value="VLTL"/>
+</field>
+<field id="wdef"><phrase id="fldcaption" value="WDEF"/>
+</field>
+</table>
+<table id="pmclss"><phrase id="tblcaption" value="pmclss"/>
+<field id="clss"><phrase id="fldcaption" value="CLSS"/>
+</field>
+<field id="libr"><phrase id="fldcaption" value="LIBR"/>
+</field>
+<field id="clid"><phrase id="fldcaption" value="CLID"/>
+</field>
+<field id="prnt"><phrase id="fldcaption" value="PRNT"/>
+</field>
+<field id="name"><phrase id="fldcaption" value="NAME"/>
+</field>
+<field id="code"><phrase id="fldcaption" value="CODE"/>
+</field>
+<field id="tnam"><phrase id="fldcaption" value="TNAM"/>
+</field>
+<field id="flgs"><phrase id="fldcaption" value="FLGS"/>
+</field>
+</table>
+<table id="pmcmap"><phrase id="tblcaption" value="pmcmap"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="crtr"><phrase id="fldcaption" value="CRTR"/>
+</field>
+<field id="delt"><phrase id="fldcaption" value="DELT"/>
+</field>
+<field id="expr"><phrase id="fldcaption" value="EXPR"/>
+</field>
+<field id="insr"><phrase id="fldcaption" value="INSR"/>
+</field>
+<field id="inst"><phrase id="fldcaption" value="INST"/>
+</field>
+<field id="revb"><phrase id="fldcaption" value="REVB"/>
+</field>
+<field id="slct"><phrase id="fldcaption" value="SLCT"/>
+</field>
+<field id="updt"><phrase id="fldcaption" value="UPDT"/>
+</field>
+</table>
+<table id="pmcnfg"><phrase id="tblcaption" value="pmcnfg"/>
+<field id="cnfg"><phrase id="fldcaption" value="CNFG"/>
+</field>
+<field id="name"><phrase id="fldcaption" value="NAME"/>
+</field>
+<field id="code"><phrase id="fldcaption" value="CODE"/>
+</field>
+<field id="cmmt"><phrase id="fldcaption" value="CMMT"/>
+</field>
+<field id="ocus"><phrase id="fldcaption" value="OCUS"/>
+</field>
+<field id="ocdt"><phrase id="fldcaption" value="OCDT"/>
+</field>
+<field id="omus"><phrase id="fldcaption" value="OMUS"/>
+</field>
+<field id="omdt"><phrase id="fldcaption" value="OMDT"/>
+</field>
+</table>
+<table id="pmcont"><phrase id="tblcaption" value="pmcont"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="foot"><phrase id="fldcaption" value="FOOT"/>
+</field>
+<field id="head"><phrase id="fldcaption" value="HEAD"/>
+</field>
+<field id="opts"><phrase id="fldcaption" value="OPTS"/>
+</field>
+</table>
+<table id="pmdbms"><phrase id="tblcaption" value="pmdbms"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="cglb"><phrase id="fldcaption" value="CGLB"/>
+</field>
+<field id="fmly"><phrase id="fldcaption" value="FMLY"/>
+</field>
+<field id="sfml"><phrase id="fldcaption" value="SFML"/>
+</field>
+</table>
+<table id="pmdflt"><phrase id="tblcaption" value="pmdflt"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="vale"><phrase id="fldcaption" value="VALE"/>
+</field>
+</table>
+<table id="pmdiag"><phrase id="tblcaption" value="pmdiag"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="cprf"><phrase id="fldcaption" value="CPRF"/>
+</field>
+<field id="csiz"><phrase id="fldcaption" value="CSIZ"/>
+</field>
+<field id="dflg"><phrase id="fldcaption" value="DFLG"/>
+</field>
+<field id="dprf"><phrase id="fldcaption" value="DPRF"/>
+</field>
+<field id="foot"><phrase id="fldcaption" value="FOOT"/>
+</field>
+<field id="head"><phrase id="fldcaption" value="HEAD"/>
+</field>
+<field id="ltyp"><phrase id="fldcaption" value="LTYP"/>
+</field>
+<field id="mtyp"><phrase id="fldcaption" value="MTYP"/>
+</field>
+<field id="nmbr"><phrase id="fldcaption" value="NMBR"/>
+</field>
+<field id="pgmg"><phrase id="fldcaption" value="PGMG"/>
+</field>
+<field id="pgor"><phrase id="fldcaption" value="PGOR"/>
+</field>
+<field id="pgsc"><phrase id="fldcaption" value="PGSC"/>
+</field>
+<field id="ppsc"><phrase id="fldcaption" value="PPSC"/>
+</field>
+<field id="ppsz"><phrase id="fldcaption" value="PPSZ"/>
+</field>
+<field id="rhsz"><phrase id="fldcaption" value="RHSZ"/>
+</field>
+<field id="rprf"><phrase id="fldcaption" value="RPRF"/>
+</field>
+</table>
+<table id="pmdtsc"><phrase id="tblcaption" value="pmdtsc"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="actp"><phrase id="fldcaption" value="ACTP"/>
+</field>
+<field id="dtsr"><phrase id="fldcaption" value="DTSR"/>
+</field>
+<field id="lgin"><phrase id="fldcaption" value="LGIN"/>
+</field>
+<field id="pswd"><phrase id="fldcaption" value="PSWD"/>
+</field>
+</table>
+<table id="pmdvtl"><phrase id="tblcaption" value="pmdvtl"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="cglb"><phrase id="fldcaption" value="CGLB"/>
+</field>
+<field id="fmly"><phrase id="fldcaption" value="FMLY"/>
+</field>
+<field id="sfml"><phrase id="fldcaption" value="SFML"/>
+</field>
+</table>
+<table id="pmemdl"><phrase id="tblcaption" value="pmemdl"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="toid"><phrase id="fldcaption" value="TOID"/>
+</field>
+<field id="ecls"><phrase id="fldcaption" value="ECLS"/>
+</field>
+<field id="emid"><phrase id="fldcaption" value="EMID"/>
+</field>
+<field id="eurl"><phrase id="fldcaption" value="EURL"/>
+</field>
+</table>
+<table id="pmeobj"><phrase id="tblcaption" value="pmeobj"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="toid"><phrase id="fldcaption" value="TOID"/>
+</field>
+<field id="ecls"><phrase id="fldcaption" value="ECLS"/>
+</field>
+<field id="eoid"><phrase id="fldcaption" value="EOID"/>
+</field>
+<field id="gene"><phrase id="fldcaption" value="GENE"/>
+</field>
+<field id="gtyp"><phrase id="fldcaption" value="GTYP"/>
+</field>
+<field id="loct"><phrase id="fldcaption" value="LOCT"/>
+</field>
+</table>
+<table id="pmexas"><phrase id="tblcaption" value="pmexas"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="aatt"><phrase id="fldcaption" value="AATT"/>
+</field>
+<field id="cglb"><phrase id="fldcaption" value="CGLB"/>
+</field>
+<field id="fmly"><phrase id="fldcaption" value="FMLY"/>
+</field>
+<field id="sfml"><phrase id="fldcaption" value="SFML"/>
+</field>
+<field id="xcpl"><phrase id="fldcaption" value="XCPL"/>
+</field>
+<field id="xctg"><phrase id="fldcaption" value="XCTG"/>
+</field>
+<field id="xlib"><phrase id="fldcaption" value="XLIB"/>
+</field>
+</table>
+<table id="pmfilo"><phrase id="tblcaption" value="pmfilo"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="afct"><phrase id="fldcaption" value="AFCT"/>
+</field>
+<field id="fcnt"><phrase id="fldcaption" value="FCNT"/>
+</field>
+<field id="fext"><phrase id="fldcaption" value="FEXT"/>
+</field>
+<field id="gene"><phrase id="fldcaption" value="GENE"/>
+</field>
+<field id="urlc"><phrase id="fldcaption" value="URLC"/>
+</field>
+</table>
+<table id="pmfldr"><phrase id="tblcaption" value="pmfldr"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="xnam"><phrase id="fldcaption" value="XNAM"/>
+</field>
+<field id="addr"><phrase id="fldcaption" value="ADDR"/>
+</field>
+<field id="aply"><phrase id="fldcaption" value="APLY"/>
+</field>
+<field id="atfm"><phrase id="fldcaption" value="ATFM"/>
+</field>
+<field id="auth"><phrase id="fldcaption" value="AUTH"/>
+</field>
+<field id="avsn"><phrase id="fldcaption" value="AVSN"/>
+</field>
+<field id="blcd"><phrase id="fldcaption" value="BLCD"/>
+</field>
+<field id="elfm"><phrase id="fldcaption" value="ELFM"/>
+</field>
+<field id="fnld"><phrase id="fldcaption" value="FNLD"/>
+</field>
+<field id="fopt"><phrase id="fldcaption" value="FOPT"/>
+</field>
+<field id="lang"><phrase id="fldcaption" value="LANG"/>
+</field>
+<field id="mopt"><phrase id="fldcaption" value="MOPT"/>
+</field>
+<field id="mult"><phrase id="fldcaption" value="MULT"/>
+</field>
+<field id="nmsp"><phrase id="fldcaption" value="NMSP"/>
+</field>
+<field id="nsps"><phrase id="fldcaption" value="NSPS"/>
+</field>
+<field id="pcti"><phrase id="fldcaption" value="PCTI"/>
+</field>
+<field id="pfix"><phrase id="fldcaption" value="PFIX"/>
+</field>
+<field id="preg"><phrase id="fldcaption" value="PREG"/>
+</field>
+<field id="pstg"><phrase id="fldcaption" value="PSTG"/>
+</field>
+<field id="ptyp"><phrase id="fldcaption" value="PTYP"/>
+</field>
+<field id="tnsp"><phrase id="fldcaption" value="TNSP"/>
+</field>
+<field id="vers"><phrase id="fldcaption" value="VERS"/>
+</field>
+<field id="xsid"><phrase id="fldcaption" value="XSID"/>
+</field>
+</table>
+<table id="pmgusr"><phrase id="tblcaption" value="pmgusr"/>
+<field id="grpe"><phrase id="fldcaption" value="GRPE"/>
+</field>
+<field id="rusr"><phrase id="fldcaption" value="RUSR"/>
+</field>
+</table>
+<table id="pmilmacol"><phrase id="tblcaption" value="pmilmacol"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="dttp"><phrase id="fldcaption" value="DTTP"/>
+</field>
+<field id="mlen"><phrase id="fldcaption" value="MLEN"/>
+</field>
+<field id="prec"><phrase id="fldcaption" value="PREC"/>
+</field>
+<field id="rcol"><phrase id="fldcaption" value="RCOL"/>
+</field>
+<field id="scce"><phrase id="fldcaption" value="SCCE"/>
+</field>
+</table>
+<table id="pmilmartc"><phrase id="tblcaption" value="pmilmartc"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="cwhr"><phrase id="fldcaption" value="CWHR"/>
+</field>
+<field id="rtbl"><phrase id="fldcaption" value="RTBL"/>
+</field>
+</table>
+<table id="pmilmbprc"><phrase id="tblcaption" value="pmilmbprc"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="ptyp"><phrase id="fldcaption" value="PTYP"/>
+</field>
+</table>
+<table id="pmilmccdb"><phrase id="tblcaption" value="pmilmccdb"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="ptyp"><phrase id="fldcaption" value="PTYP"/>
+</field>
+</table>
+<table id="pmilmdaap"><phrase id="tblcaption" value="pmilmdaap"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="ptyp"><phrase id="fldcaption" value="PTYP"/>
+</field>
+</table>
+<table id="pmilmdaln"><phrase id="tblcaption" value="pmilmdaln"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="actp"><phrase id="fldcaption" value="ACTP"/>
+</field>
+</table>
+<table id="pmilmdbin"><phrase id="tblcaption" value="pmilmdbin"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="sqry"><phrase id="fldcaption" value="SQRY"/>
+</field>
+</table>
+<table id="pmilmdbou"><phrase id="tblcaption" value="pmilmdbou"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="texp"><phrase id="fldcaption" value="TEXP"/>
+</field>
+</table>
+<table id="pmilmdcnt"><phrase id="tblcaption" value="pmilmdcnt"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="actp"><phrase id="fldcaption" value="ACTP"/>
+</field>
+</table>
+<table id="pmilmdscl"><phrase id="tblcaption" value="pmilmdscl"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="dttp"><phrase id="fldcaption" value="DTTP"/>
+</field>
+<field id="dval"><phrase id="fldcaption" value="DVAL"/>
+</field>
+<field id="idcl"><phrase id="fldcaption" value="IDCL"/>
+</field>
+<field id="mand"><phrase id="fldcaption" value="MAND"/>
+</field>
+<field id="mlen"><phrase id="fldcaption" value="MLEN"/>
+</field>
+<field id="prec"><phrase id="fldcaption" value="PREC"/>
+</field>
+<field id="sexp"><phrase id="fldcaption" value="SEXP"/>
+</field>
+<field id="texp"><phrase id="fldcaption" value="TEXP"/>
+</field>
+</table>
+<table id="pmilmdsjn"><phrase id="tblcaption" value="pmilmdsjn"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="jexp"><phrase id="fldcaption" value="JEXP"/>
+</field>
+</table>
+<table id="pmilmdtbs"><phrase id="tblcaption" value="pmilmdtbs"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="dtsc"><phrase id="fldcaption" value="DTSC"/>
+</field>
+<field id="logn"><phrase id="fldcaption" value="LOGN"/>
+</field>
+<field id="pswd"><phrase id="fldcaption" value="PSWD"/>
+</field>
+<field id="ptyp"><phrase id="fldcaption" value="PTYP"/>
+</field>
+</table>
+<table id="pmilmdtcl"><phrase id="tblcaption" value="pmilmdtcl"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="crit"><phrase id="fldcaption" value="CRIT"/>
+</field>
+</table>
+<table id="pmilmdtfl"><phrase id="tblcaption" value="pmilmdtfl"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="crit"><phrase id="fldcaption" value="CRIT"/>
+</field>
+</table>
+<table id="pmilmdtlu"><phrase id="tblcaption" value="pmilmdtlu"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="fmod"><phrase id="fldcaption" value="FMOD"/>
+</field>
+<field id="mval"><phrase id="fldcaption" value="MVAL"/>
+</field>
+<field id="sqry"><phrase id="fldcaption" value="SQRY"/>
+</field>
+</table>
+<table id="pmilmdtqe"><phrase id="tblcaption" value="pmilmdtqe"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="sqry"><phrase id="fldcaption" value="SQRY"/>
+</field>
+</table>
+<table id="pmilmevsc"><phrase id="tblcaption" value="pmilmevsc"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="evnt"><phrase id="fldcaption" value="EVNT"/>
+</field>
+<field id="scpt"><phrase id="fldcaption" value="SCPT"/>
+</field>
+<field id="vers"><phrase id="fldcaption" value="VERS"/>
+</field>
+</table>
+<table id="pmilmffil"><phrase id="tblcaption" value="pmilmffil"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="flen"><phrase id="fldcaption" value="FLEN"/>
+</field>
+<field id="fmod"><phrase id="fldcaption" value="FMOD"/>
+</field>
+<field id="fpat"><phrase id="fldcaption" value="FPAT"/>
+</field>
+<field id="ptyp"><phrase id="fldcaption" value="PTYP"/>
+</field>
+<field id="sepr"><phrase id="fldcaption" value="SEPR"/>
+</field>
+</table>
+<table id="pmilmffou"><phrase id="tblcaption" value="pmilmffou"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="texp"><phrase id="fldcaption" value="TEXP"/>
+</field>
+</table>
+<table id="pmilmgdou"><phrase id="tblcaption" value="pmilmgdou"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="texp"><phrase id="fldcaption" value="TEXP"/>
+</field>
+</table>
+<table id="pmilmglnk"><phrase id="tblcaption" value="pmilmglnk"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="actp"><phrase id="fldcaption" value="ACTP"/>
+</field>
+</table>
+<table id="pmilmpckg"><phrase id="tblcaption" value="pmilmpckg"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="fopt"><phrase id="fldcaption" value="FOPT"/>
+</field>
+<field id="nmsp"><phrase id="fldcaption" value="NMSP"/>
+</field>
+</table>
+<table id="pmilmprmt"><phrase id="tblcaption" value="pmilmprmt"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="dttp"><phrase id="fldcaption" value="DTTP"/>
+</field>
+<field id="mlen"><phrase id="fldcaption" value="MLEN"/>
+</field>
+<field id="prec"><phrase id="fldcaption" value="PREC"/>
+</field>
+</table>
+<table id="pmilmproc"><phrase id="tblcaption" value="pmilmproc"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="rprc"><phrase id="fldcaption" value="RPRC"/>
+</field>
+</table>
+<table id="pmilmpubl"><phrase id="tblcaption" value="pmilmpubl"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="ptyp"><phrase id="fldcaption" value="PTYP"/>
+</field>
+</table>
+<table id="pmilmrprc"><phrase id="tblcaption" value="pmilmrprc"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="dtsc"><phrase id="fldcaption" value="DTSC"/>
+</field>
+<field id="logn"><phrase id="fldcaption" value="LOGN"/>
+</field>
+<field id="pswd"><phrase id="fldcaption" value="PSWD"/>
+</field>
+<field id="ptyp"><phrase id="fldcaption" value="PTYP"/>
+</field>
+</table>
+<table id="pmilmscex"><phrase id="tblcaption" value="pmilmscex"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="scpt"><phrase id="fldcaption" value="SCPT"/>
+</field>
+<field id="slng"><phrase id="fldcaption" value="SLNG"/>
+</field>
+</table>
+<table id="pmilmscol"><phrase id="tblcaption" value="pmilmscol"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="ordr"><phrase id="fldcaption" value="ORDR"/>
+</field>
+</table>
+<table id="pmilmsubs"><phrase id="tblcaption" value="pmilmsubs"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="cwhr"><phrase id="fldcaption" value="CWHR"/>
+</field>
+</table>
+<table id="pmilmtprc"><phrase id="tblcaption" value="pmilmtprc"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="dtsc"><phrase id="fldcaption" value="DTSC"/>
+</field>
+<field id="fopt"><phrase id="fldcaption" value="FOPT"/>
+</field>
+<field id="logn"><phrase id="fldcaption" value="LOGN"/>
+</field>
+<field id="nmsp"><phrase id="fldcaption" value="NMSP"/>
+</field>
+<field id="pswd"><phrase id="fldcaption" value="PSWD"/>
+</field>
+<field id="ptyp"><phrase id="fldcaption" value="PTYP"/>
+</field>
+</table>
+<table id="pmilmtren"><phrase id="tblcaption" value="pmilmtren"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="etyp"><phrase id="fldcaption" value="ETYP"/>
+</field>
+</table>
+<table id="pmilmxdoc"><phrase id="tblcaption" value="pmilmxdoc"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="ptyp"><phrase id="fldcaption" value="PTYP"/>
+</field>
+</table>
+<table id="pmilmxmou"><phrase id="tblcaption" value="pmilmxmou"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="texp"><phrase id="fldcaption" value="TEXP"/>
+</field>
+</table>
+<table id="pmlatt"><phrase id="tblcaption" value="pmlatt"/>
+<field id="lgid"><phrase id="fldcaption" value="LGID"/>
+</field>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="istx"><phrase id="fldcaption" value="ISTX"/>
+</field>
+</table>
+<table id="pmlbin"><phrase id="tblcaption" value="pmlbin"/>
+<field id="lbin"><phrase id="fldcaption" value="LBIN"/>
+</field>
+<field id="numr"><phrase id="fldcaption" value="NUMR"/>
+</field>
+<field id="bdat"><phrase id="fldcaption" value="BDAT"/>
+</field>
+</table>
+<table id="pmlibr"><phrase id="tblcaption" value="pmlibr"/>
+<field id="libr"><phrase id="fldcaption" value="LIBR"/>
+</field>
+<field id="name"><phrase id="fldcaption" value="NAME"/>
+</field>
+<field id="code"><phrase id="fldcaption" value="CODE"/>
+</field>
+<field id="goid"><phrase id="fldcaption" value="GOID"/>
+</field>
+<field id="vrsn"><phrase id="fldcaption" value="VRSN"/>
+</field>
+</table>
+<table id="pmlock"><phrase id="tblcaption" value="pmlock"/>
+<field id="lcko"><phrase id="fldcaption" value="LCKO"/>
+</field>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="ltyp"><phrase id="fldcaption" value="LTYP"/>
+</field>
+<field id="sesn"><phrase id="fldcaption" value="SESN"/>
+</field>
+<field id="cmmt"><phrase id="fldcaption" value="CMMT"/>
+</field>
+<field id="wksn"><phrase id="fldcaption" value="WKSN"/>
+</field>
+<field id="ocus"><phrase id="fldcaption" value="OCUS"/>
+</field>
+<field id="ocdt"><phrase id="fldcaption" value="OCDT"/>
+</field>
+<field id="omus"><phrase id="fldcaption" value="OMUS"/>
+</field>
+<field id="omdt"><phrase id="fldcaption" value="OMDT"/>
+</field>
+</table>
+<table id="pmlrrs"><phrase id="tblcaption" value="pmlrrs"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="rcnt"><phrase id="fldcaption" value="RCNT"/>
+</field>
+<field id="rdat"><phrase id="fldcaption" value="RDAT"/>
+</field>
+<field id="rlab"><phrase id="fldcaption" value="RLAB"/>
+</field>
+</table>
+<table id="pmlsrp"><phrase id="tblcaption" value="pmlsrp"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="cflt"><phrase id="fldcaption" value="CFLT"/>
+</field>
+<field id="lcls"><phrase id="fldcaption" value="LCLS"/>
+</field>
+<field id="rflt"><phrase id="fldcaption" value="RFLT"/>
+</field>
+<field id="shct"><phrase id="fldcaption" value="SHCT"/>
+</field>
+<field id="subo"><phrase id="fldcaption" value="SUBO"/>
+</field>
+</table>
+<table id="pmobjt"><phrase id="tblcaption" value="pmobjt"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="poid"><phrase id="fldcaption" value="POID"/>
+</field>
+<field id="clss"><phrase id="fldcaption" value="CLSS"/>
+</field>
+<field id="brnc"><phrase id="fldcaption" value="BRNC"/>
+</field>
+<field id="vrsn"><phrase id="fldcaption" value="VRSN"/>
+</field>
+<field id="pvob"><phrase id="fldcaption" value="PVOB"/>
+</field>
+<field id="frzn"><phrase id="fldcaption" value="FRZN"/>
+</field>
+<field id="lvrs"><phrase id="fldcaption" value="LVRS"/>
+</field>
+<field id="vcmt"><phrase id="fldcaption" value="VCMT"/>
+</field>
+<field id="goid"><phrase id="fldcaption" value="GOID"/>
+</field>
+<field id="ocus"><phrase id="fldcaption" value="OCUS"/>
+</field>
+<field id="ocdt"><phrase id="fldcaption" value="OCDT"/>
+</field>
+<field id="omus"><phrase id="fldcaption" value="OMUS"/>
+</field>
+<field id="omdt"><phrase id="fldcaption" value="OMDT"/>
+</field>
+<field id="name"><phrase id="fldcaption" value="NAME"/>
+</field>
+<field id="code"><phrase id="fldcaption" value="CODE"/>
+</field>
+<field id="strn"><phrase id="fldcaption" value="STRN"/>
+</field>
+<field id="cmmt"><phrase id="fldcaption" value="CMMT"/>
+</field>
+<field id="dscr"><phrase id="fldcaption" value="DSCR"/>
+</field>
+<field id="annt"><phrase id="fldcaption" value="ANNT"/>
+</field>
+<field id="hist"><phrase id="fldcaption" value="HIST"/>
+</field>
+<field id="oexa"><phrase id="fldcaption" value="OEXA"/>
+</field>
+<field id="bcol"><phrase id="fldcaption" value="BCOL"/>
+</field>
+<field id="cusr"><phrase id="fldcaption" value="CUSR"/>
+</field>
+<field id="cdat"><phrase id="fldcaption" value="CDAT"/>
+</field>
+<field id="musr"><phrase id="fldcaption" value="MUSR"/>
+</field>
+<field id="mdat"><phrase id="fldcaption" value="MDAT"/>
+</field>
+</table>
+<table id="pmocnf"><phrase id="tblcaption" value="pmocnf"/>
+<field id="cnfg"><phrase id="fldcaption" value="CNFG"/>
+</field>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+</table>
+<table id="pmolog"><phrase id="tblcaption" value="pmolog"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="otyp"><phrase id="fldcaption" value="OTYP"/>
+</field>
+<field id="ousr"><phrase id="fldcaption" value="OUSR"/>
+</field>
+<field id="odat"><phrase id="fldcaption" value="ODAT"/>
+</field>
+<field id="name"><phrase id="fldcaption" value="NAME"/>
+</field>
+<field id="code"><phrase id="fldcaption" value="CODE"/>
+</field>
+<field id="vrsn"><phrase id="fldcaption" value="VRSN"/>
+</field>
+<field id="lctn"><phrase id="fldcaption" value="LCTN"/>
+</field>
+<field id="ocmt"><phrase id="fldcaption" value="OCMT"/>
+</field>
+</table>
+<table id="pmoomactn"><phrase id="tblcaption" value="pmoomactn"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="cnda"><phrase id="fldcaption" value="CNDA"/>
+</field>
+<field id="cnde"><phrase id="fldcaption" value="CNDE"/>
+</field>
+<field id="earg"><phrase id="fldcaption" value="EARG"/>
+</field>
+<field id="oarg"><phrase id="fldcaption" value="OARG"/>
+</field>
+<field id="pevt"><phrase id="fldcaption" value="PEVT"/>
+</field>
+</table>
+<table id="pmoomactv"><phrase id="tblcaption" value="pmoomactv"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="actn"><phrase id="fldcaption" value="ACTN"/>
+</field>
+<field id="actp"><phrase id="fldcaption" value="ACTP"/>
+</field>
+<field id="comm"><phrase id="fldcaption" value="COMM"/>
+</field>
+<field id="drtn"><phrase id="fldcaption" value="DRTN"/>
+</field>
+<field id="expr"><phrase id="fldcaption" value="EXPR"/>
+</field>
+<field id="fopt"><phrase id="fldcaption" value="FOPT"/>
+</field>
+<field id="nmsp"><phrase id="fldcaption" value="NMSP"/>
+</field>
+<field id="prec"><phrase id="fldcaption" value="PREC"/>
+</field>
+<field id="pstc"><phrase id="fldcaption" value="PSTC"/>
+</field>
+<field id="tmot"><phrase id="fldcaption" value="TMOT"/>
+</field>
+</table>
+<table id="pmoomanot"><phrase id="tblcaption" value="pmoomanot"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="annm"><phrase id="fldcaption" value="ANNM"/>
+</field>
+<field id="antx"><phrase id="fldcaption" value="ANTX"/>
+</field>
+</table>
+<table id="pmoomassc"><phrase id="tblcaption" value="pmoomassc"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="arsa"><phrase id="fldcaption" value="ARSA"/>
+</field>
+<field id="arsb"><phrase id="fldcaption" value="ARSB"/>
+</field>
+<field id="frza"><phrase id="fldcaption" value="FRZA"/>
+</field>
+<field id="frzb"><phrase id="fldcaption" value="FRZB"/>
+</field>
+<field id="inda"><phrase id="fldcaption" value="INDA"/>
+</field>
+<field id="indb"><phrase id="fldcaption" value="INDB"/>
+</field>
+<field id="inia"><phrase id="fldcaption" value="INIA"/>
+</field>
+<field id="inib"><phrase id="fldcaption" value="INIB"/>
+</field>
+<field id="mula"><phrase id="fldcaption" value="MULA"/>
+</field>
+<field id="mulb"><phrase id="fldcaption" value="MULB"/>
+</field>
+<field id="nava"><phrase id="fldcaption" value="NAVA"/>
+</field>
+<field id="navb"><phrase id="fldcaption" value="NAVB"/>
+</field>
+<field id="orda"><phrase id="fldcaption" value="ORDA"/>
+</field>
+<field id="ordb"><phrase id="fldcaption" value="ORDB"/>
+</field>
+<field id="prsa"><phrase id="fldcaption" value="PRSA"/>
+</field>
+<field id="prsb"><phrase id="fldcaption" value="PRSB"/>
+</field>
+<field id="rola"><phrase id="fldcaption" value="ROLA"/>
+</field>
+<field id="rolb"><phrase id="fldcaption" value="ROLB"/>
+</field>
+<field id="visa"><phrase id="fldcaption" value="VISA"/>
+</field>
+<field id="visb"><phrase id="fldcaption" value="VISB"/>
+</field>
+<field id="vlta"><phrase id="fldcaption" value="VLTA"/>
+</field>
+<field id="vltb"><phrase id="fldcaption" value="VLTB"/>
+</field>
+</table>
+<table id="pmoomatvl"><phrase id="tblcaption" value="pmoomatvl"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="aval"><phrase id="fldcaption" value="AVAL"/>
+</field>
+</table>
+<table id="pmoomclnk"><phrase id="tblcaption" value="pmoomclnk"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="cnda"><phrase id="fldcaption" value="CNDA"/>
+</field>
+<field id="cnde"><phrase id="fldcaption" value="CNDE"/>
+</field>
+<field id="earg"><phrase id="fldcaption" value="EARG"/>
+</field>
+<field id="ftyp"><phrase id="fldcaption" value="FTYP"/>
+</field>
+<field id="oarg"><phrase id="fldcaption" value="OARG"/>
+</field>
+<field id="tacn"><phrase id="fldcaption" value="TACN"/>
+</field>
+<field id="trns"><phrase id="fldcaption" value="TRNS"/>
+</field>
+<field id="wght"><phrase id="fldcaption" value="WGHT"/>
+</field>
+</table>
+<table id="pmoomcmpi"><phrase id="tblcaption" value="pmoomcmpi"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="accp"><phrase id="fldcaption" value="ACCP"/>
+</field>
+<field id="disp"><phrase id="fldcaption" value="DISP"/>
+</field>
+<field id="mult"><phrase id="fldcaption" value="MULT"/>
+</field>
+<field id="wcmt"><phrase id="fldcaption" value="WCMT"/>
+</field>
+<field id="wiif"><phrase id="fldcaption" value="WIIF"/>
+</field>
+<field id="wtxt"><phrase id="fldcaption" value="WTXT"/>
+</field>
+<field id="wurl"><phrase id="fldcaption" value="WURL"/>
+</field>
+<field id="wxtn"><phrase id="fldcaption" value="WXTN"/>
+</field>
+</table>
+<table id="pmoomcomp"><phrase id="tblcaption" value="pmoomcomp"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="ctyp"><phrase id="fldcaption" value="CTYP"/>
+</field>
+<field id="trsp"><phrase id="fldcaption" value="TRSP"/>
+</field>
+<field id="wcmt"><phrase id="fldcaption" value="WCMT"/>
+</field>
+<field id="wnpx"><phrase id="fldcaption" value="WNPX"/>
+</field>
+<field id="wnsp"><phrase id="fldcaption" value="WNSP"/>
+</field>
+<field id="wsrv"><phrase id="fldcaption" value="WSRV"/>
+</field>
+<field id="wsss"><phrase id="fldcaption" value="WSSS"/>
+</field>
+<field id="wsty"><phrase id="fldcaption" value="WSTY"/>
+</field>
+<field id="wtns"><phrase id="fldcaption" value="WTNS"/>
+</field>
+<field id="wtxt"><phrase id="fldcaption" value="WTXT"/>
+</field>
+<field id="wtyp"><phrase id="fldcaption" value="WTYP"/>
+</field>
+<field id="wurl"><phrase id="fldcaption" value="WURL"/>
+</field>
+<field id="wxtn"><phrase id="fldcaption" value="WXTN"/>
+</field>
+</table>
+<table id="pmoomcsfr"><phrase id="tblcaption" value="pmoomcsfr"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="abst"><phrase id="fldcaption" value="ABST"/>
+</field>
+<field id="ctyp"><phrase id="fldcaption" value="CTYP"/>
+</field>
+<field id="exts"><phrase id="fldcaption" value="EXTS"/>
+</field>
+<field id="finl"><phrase id="fldcaption" value="FINL"/>
+</field>
+<field id="foot"><phrase id="fldcaption" value="FOOT"/>
+</field>
+<field id="fopt"><phrase id="fldcaption" value="FOPT"/>
+</field>
+<field id="gene"><phrase id="fldcaption" value="GENE"/>
+</field>
+<field id="head"><phrase id="fldcaption" value="HEAD"/>
+</field>
+<field id="impt"><phrase id="fldcaption" value="IMPT"/>
+</field>
+<field id="mult"><phrase id="fldcaption" value="MULT"/>
+</field>
+<field id="nmsp"><phrase id="fldcaption" value="NMSP"/>
+</field>
+<field id="pcod"><phrase id="fldcaption" value="PCOD"/>
+</field>
+<field id="pers"><phrase id="fldcaption" value="PERS"/>
+</field>
+<field id="pgmd"><phrase id="fldcaption" value="PGMD"/>
+</field>
+<field id="prcn"><phrase id="fldcaption" value="PRCN"/>
+</field>
+<field id="pscn"><phrase id="fldcaption" value="PSCN"/>
+</field>
+<field id="step"><phrase id="fldcaption" value="STEP"/>
+</field>
+<field id="thrw"><phrase id="fldcaption" value="THRW"/>
+</field>
+<field id="visi"><phrase id="fldcaption" value="VISI"/>
+</field>
+</table>
+<table id="pmoomdcsn"><phrase id="tblcaption" value="pmoomdcsn"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="expa"><phrase id="fldcaption" value="EXPA"/>
+</field>
+<field id="expr"><phrase id="fldcaption" value="EXPR"/>
+</field>
+</table>
+<table id="pmoomdtsc"><phrase id="tblcaption" value="pmoomdtsc"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="actp"><phrase id="fldcaption" value="ACTP"/>
+</field>
+<field id="cnct"><phrase id="fldcaption" value="CNCT"/>
+</field>
+<field id="dtsr"><phrase id="fldcaption" value="DTSR"/>
+</field>
+<field id="lgin"><phrase id="fldcaption" value="LGIN"/>
+</field>
+<field id="mtyp"><phrase id="fldcaption" value="MTYP"/>
+</field>
+<field id="odbc"><phrase id="fldcaption" value="ODBC"/>
+</field>
+<field id="pswd"><phrase id="fldcaption" value="PSWD"/>
+</field>
+</table>
+<table id="pmoomends"><phrase id="tblcaption" value="pmoomends"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="atrm"><phrase id="fldcaption" value="ATRM"/>
+</field>
+</table>
+<table id="pmoomgnrl"><phrase id="tblcaption" value="pmoomgnrl"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="visi"><phrase id="fldcaption" value="VISI"/>
+</field>
+</table>
+<table id="pmoomiact"><phrase id="tblcaption" value="pmoomiact"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="irag"><phrase id="fldcaption" value="IRAG"/>
+</field>
+<field id="irrv"><phrase id="fldcaption" value="IRRV"/>
+</field>
+</table>
+<table id="pmoomiapm"><phrase id="tblcaption" value="pmoomiapm"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="dttp"><phrase id="fldcaption" value="DTTP"/>
+</field>
+<field id="inst"><phrase id="fldcaption" value="INST"/>
+</field>
+<field id="stat"><phrase id="fldcaption" value="STAT"/>
+</field>
+</table>
+<table id="pmoomifrg"><phrase id="tblcaption" value="pmoomifrg"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="cond"><phrase id="fldcaption" value="COND"/>
+</field>
+<field id="frsz"><phrase id="fldcaption" value="FRSZ"/>
+</field>
+<field id="iftp"><phrase id="fldcaption" value="IFTP"/>
+</field>
+</table>
+<table id="pmoomilnk"><phrase id="tblcaption" value="pmoomilnk"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="xtyp"><phrase id="fldcaption" value="XTYP"/>
+</field>
+</table>
+<table id="pmoomiref"><phrase id="tblcaption" value="pmoomiref"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="irag"><phrase id="fldcaption" value="IRAG"/>
+</field>
+<field id="irrv"><phrase id="fldcaption" value="IRRV"/>
+</field>
+</table>
+<table id="pmoommssg"><phrase id="tblcaption" value="pmoommssg"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="actn"><phrase id="fldcaption" value="ACTN"/>
+</field>
+<field id="btim"><phrase id="fldcaption" value="BTIM"/>
+</field>
+<field id="cond"><phrase id="fldcaption" value="COND"/>
+</field>
+<field id="dlay"><phrase id="fldcaption" value="DLAY"/>
+</field>
+<field id="etim"><phrase id="fldcaption" value="ETIM"/>
+</field>
+<field id="mtyp"><phrase id="fldcaption" value="MTYP"/>
+</field>
+<field id="oarg"><phrase id="fldcaption" value="OARG"/>
+</field>
+<field id="orvl"><phrase id="fldcaption" value="ORVL"/>
+</field>
+<field id="pred"><phrase id="fldcaption" value="PRED"/>
+</field>
+<field id="seqn"><phrase id="fldcaption" value="SEQN"/>
+</field>
+</table>
+<table id="pmoommthd"><phrase id="tblcaption" value="pmoommthd"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="abst"><phrase id="fldcaption" value="ABST"/>
+</field>
+<field id="aray"><phrase id="fldcaption" value="ARAY"/>
+</field>
+<field id="atmt"><phrase id="fldcaption" value="ATMT"/>
+</field>
+<field id="bdyt"><phrase id="fldcaption" value="BDYT"/>
+</field>
+<field id="disp"><phrase id="fldcaption" value="DISP"/>
+</field>
+<field id="evnt"><phrase id="fldcaption" value="EVNT"/>
+</field>
+<field id="finl"><phrase id="fldcaption" value="FINL"/>
+</field>
+<field id="prcn"><phrase id="fldcaption" value="PRCN"/>
+</field>
+<field id="pscn"><phrase id="fldcaption" value="PSCN"/>
+</field>
+<field id="qury"><phrase id="fldcaption" value="QURY"/>
+</field>
+<field id="rnly"><phrase id="fldcaption" value="RNLY"/>
+</field>
+<field id="rttp"><phrase id="fldcaption" value="RTTP"/>
+</field>
+<field id="spec"><phrase id="fldcaption" value="SPEC"/>
+</field>
+<field id="sttc"><phrase id="fldcaption" value="STTC"/>
+</field>
+<field id="thrw"><phrase id="fldcaption" value="THRW"/>
+</field>
+<field id="visi"><phrase id="fldcaption" value="VISI"/>
+</field>
+<field id="wdtp"><phrase id="fldcaption" value="WDTP"/>
+</field>
+<field id="wmtd"><phrase id="fldcaption" value="WMTD"/>
+</field>
+<field id="wsfs"><phrase id="fldcaption" value="WSFS"/>
+</field>
+<field id="wsim"><phrase id="fldcaption" value="WSIM"/>
+</field>
+<field id="wsis"><phrase id="fldcaption" value="WSIS"/>
+</field>
+<field id="wsom"><phrase id="fldcaption" value="WSOM"/>
+</field>
+<field id="wsos"><phrase id="fldcaption" value="WSOS"/>
+</field>
+<field id="wssf"><phrase id="fldcaption" value="WSSF"/>
+</field>
+</table>
+<table id="pmoomoapm"><phrase id="tblcaption" value="pmoomoapm"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="dttp"><phrase id="fldcaption" value="DTTP"/>
+</field>
+<field id="inst"><phrase id="fldcaption" value="INST"/>
+</field>
+<field id="stat"><phrase id="fldcaption" value="STAT"/>
+</field>
+</table>
+<table id="pmoomobjt"><phrase id="tblcaption" value="pmoomobjt"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="mlpl"><phrase id="fldcaption" value="MLPL"/>
+</field>
+</table>
+<table id="pmoomobst"><phrase id="tblcaption" value="pmoomobst"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="dttp"><phrase id="fldcaption" value="DTTP"/>
+</field>
+<field id="stat"><phrase id="fldcaption" value="STAT"/>
+</field>
+</table>
+<table id="pmoomparm"><phrase id="tblcaption" value="pmoomparm"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="aray"><phrase id="fldcaption" value="ARAY"/>
+</field>
+<field id="arsz"><phrase id="fldcaption" value="ARSZ"/>
+</field>
+<field id="dttp"><phrase id="fldcaption" value="DTTP"/>
+</field>
+<field id="dval"><phrase id="fldcaption" value="DVAL"/>
+</field>
+<field id="pttp"><phrase id="fldcaption" value="PTTP"/>
+</field>
+<field id="varg"><phrase id="fldcaption" value="VARG"/>
+</field>
+<field id="wdtp"><phrase id="fldcaption" value="WDTP"/>
+</field>
+</table>
+<table id="pmoompart"><phrase id="tblcaption" value="pmoompart"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="comp"><phrase id="fldcaption" value="COMP"/>
+</field>
+<field id="dttp"><phrase id="fldcaption" value="DTTP"/>
+</field>
+<field id="mult"><phrase id="fldcaption" value="MULT"/>
+</field>
+<field id="visi"><phrase id="fldcaption" value="VISI"/>
+</field>
+</table>
+<table id="pmoomport"><phrase id="tblcaption" value="pmoomport"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="bhvr"><phrase id="fldcaption" value="BHVR"/>
+</field>
+<field id="dttp"><phrase id="fldcaption" value="DTTP"/>
+</field>
+<field id="mult"><phrase id="fldcaption" value="MULT"/>
+</field>
+<field id="serv"><phrase id="fldcaption" value="SERV"/>
+</field>
+<field id="visi"><phrase id="fldcaption" value="VISI"/>
+</field>
+</table>
+<table id="pmoomstat"><phrase id="tblcaption" value="pmoomstat"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="fopt"><phrase id="fldcaption" value="FOPT"/>
+</field>
+<field id="nmsp"><phrase id="fldcaption" value="NMSP"/>
+</field>
+</table>
+<table id="pmoomsync"><phrase id="tblcaption" value="pmoomsync"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="tmot"><phrase id="fldcaption" value="TMOT"/>
+</field>
+</table>
+<table id="pmoomtprm"><phrase id="tblcaption" value="pmoomtprm"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="drvc"><phrase id="fldcaption" value="DRVC"/>
+</field>
+</table>
+<table id="pmoomtprv"><phrase id="tblcaption" value="pmoomtprv"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="tprv"><phrase id="fldcaption" value="TPRV"/>
+</field>
+</table>
+<table id="pmoomvarb"><phrase id="tblcaption" value="pmoomvarb"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="dttp"><phrase id="fldcaption" value="DTTP"/>
+</field>
+<field id="mult"><phrase id="fldcaption" value="MULT"/>
+</field>
+</table>
+<table id="pmopts"><phrase id="tblcaption" value="pmopts"/>
+<field id="name"><phrase id="fldcaption" value="NAME"/>
+</field>
+<field id="vale"><phrase id="fldcaption" value="VALE"/>
+</field>
+</table>
+<table id="pmpctf"><phrase id="tblcaption" value="pmpctf"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="ctnt"><phrase id="fldcaption" value="CTNT"/>
+</field>
+<field id="ppth"><phrase id="fldcaption" value="PPTH"/>
+</field>
+<field id="ptid"><phrase id="fldcaption" value="PTID"/>
+</field>
+<field id="ptyp"><phrase id="fldcaption" value="PTYP"/>
+</field>
+</table>
+<table id="pmpdmabdt"><phrase id="tblcaption" value="pmpdmabdt"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="abst"><phrase id="fldcaption" value="ABST"/>
+</field>
+<field id="cnam"><phrase id="fldcaption" value="CNAM"/>
+</field>
+<field id="dttp"><phrase id="fldcaption" value="DTTP"/>
+</field>
+<field id="finl"><phrase id="fldcaption" value="FINL"/>
+</field>
+<field id="jvdt"><phrase id="fldcaption" value="JVDT"/>
+</field>
+<field id="jvnm"><phrase id="fldcaption" value="JVNM"/>
+</field>
+<field id="mand"><phrase id="fldcaption" value="MAND"/>
+</field>
+<field id="mlen"><phrase id="fldcaption" value="MLEN"/>
+</field>
+<field id="ofil"><phrase id="fldcaption" value="OFIL"/>
+</field>
+<field id="osiz"><phrase id="fldcaption" value="OSIZ"/>
+</field>
+<field id="otyp"><phrase id="fldcaption" value="OTYP"/>
+</field>
+<field id="prec"><phrase id="fldcaption" value="PREC"/>
+</field>
+<field id="priv"><phrase id="fldcaption" value="PRIV"/>
+</field>
+</table>
+<table id="pmpdmadpr"><phrase id="tblcaption" value="pmpdmadpr"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="abst"><phrase id="fldcaption" value="ABST"/>
+</field>
+<field id="defn"><phrase id="fldcaption" value="DEFN"/>
+</field>
+<field id="finl"><phrase id="fldcaption" value="FINL"/>
+</field>
+<field id="jvmt"><phrase id="fldcaption" value="JVMT"/>
+</field>
+<field id="jvnm"><phrase id="fldcaption" value="JVNM"/>
+</field>
+<field id="pcdt"><phrase id="fldcaption" value="PCDT"/>
+</field>
+<field id="prag"><phrase id="fldcaption" value="PRAG"/>
+</field>
+<field id="ptyp"><phrase id="fldcaption" value="PTYP"/>
+</field>
+<field id="rttp"><phrase id="fldcaption" value="RTTP"/>
+</field>
+<field id="sttc"><phrase id="fldcaption" value="STTC"/>
+</field>
+</table>
+<table id="pmpdmcidx"><phrase id="tblcaption" value="pmpdmcidx"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="ascd"><phrase id="fldcaption" value="ASCD"/>
+</field>
+<field id="expr"><phrase id="fldcaption" value="EXPR"/>
+</field>
+</table>
+<table id="pmpdmdbpk"><phrase id="tblcaption" value="pmpdmdbpk"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="gene"><phrase id="fldcaption" value="GENE"/>
+</field>
+<field id="init"><phrase id="fldcaption" value="INIT"/>
+</field>
+<field id="priv"><phrase id="fldcaption" value="PRIV"/>
+</field>
+</table>
+<table id="pmpdmdtbs"><phrase id="tblcaption" value="pmpdmdtbs"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="foot"><phrase id="fldcaption" value="FOOT"/>
+</field>
+<field id="head"><phrase id="fldcaption" value="HEAD"/>
+</field>
+<field id="opts"><phrase id="fldcaption" value="OPTS"/>
+</field>
+</table>
+<table id="pmpdmgrpe"><phrase id="tblcaption" value="pmpdmgrpe"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="grnt"><phrase id="fldcaption" value="GRNT"/>
+</field>
+<field id="grtw"><phrase id="fldcaption" value="GRTW"/>
+</field>
+<field id="pass"><phrase id="fldcaption" value="PASS"/>
+</field>
+<field id="rvok"><phrase id="fldcaption" value="RVOK"/>
+</field>
+</table>
+<table id="pmpdmindx"><phrase id="tblcaption" value="pmpdmindx"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="opts"><phrase id="fldcaption" value="OPTS"/>
+</field>
+<field id="otyp"><phrase id="fldcaption" value="OTYP"/>
+</field>
+<field id="uniq"><phrase id="fldcaption" value="UNIQ"/>
+</field>
+</table>
+<table id="pmpdmjidx"><phrase id="tblcaption" value="pmpdmjidx"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="foot"><phrase id="fldcaption" value="FOOT"/>
+</field>
+<field id="head"><phrase id="fldcaption" value="HEAD"/>
+</field>
+<field id="opts"><phrase id="fldcaption" value="OPTS"/>
+</field>
+</table>
+<table id="pmpdmmeas"><phrase id="tblcaption" value="pmpdmmeas"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="frml"><phrase id="fldcaption" value="FRML"/>
+</field>
+<field id="ifrm"><phrase id="fldcaption" value="IFRM"/>
+</field>
+</table>
+<table id="pmpdmnmsp"><phrase id="tblcaption" value="pmpdmnmsp"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="nuri"><phrase id="fldcaption" value="NURI"/>
+</field>
+<field id="prfx"><phrase id="fldcaption" value="PRFX"/>
+</field>
+</table>
+<table id="pmpdmparm"><phrase id="tblcaption" value="pmpdmparm"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="dttp"><phrase id="fldcaption" value="DTTP"/>
+</field>
+<field id="dval"><phrase id="fldcaption" value="DVAL"/>
+</field>
+<field id="mlen"><phrase id="fldcaption" value="MLEN"/>
+</field>
+<field id="prec"><phrase id="fldcaption" value="PREC"/>
+</field>
+<field id="pttp"><phrase id="fldcaption" value="PTTP"/>
+</field>
+</table>
+<table id="pmpdmperm"><phrase id="tblcaption" value="pmpdmperm"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="grnt"><phrase id="fldcaption" value="GRNT"/>
+</field>
+<field id="grtw"><phrase id="fldcaption" value="GRTW"/>
+</field>
+<field id="rvkc"><phrase id="fldcaption" value="RVKC"/>
+</field>
+<field id="rvok"><phrase id="fldcaption" value="RVOK"/>
+</field>
+</table>
+<table id="pmpdmpkcu"><phrase id="tblcaption" value="pmpdmpkcu"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="defn"><phrase id="fldcaption" value="DEFN"/>
+</field>
+<field id="publ"><phrase id="fldcaption" value="PUBL"/>
+</field>
+<field id="rttp"><phrase id="fldcaption" value="RTTP"/>
+</field>
+</table>
+<table id="pmpdmpkex"><phrase id="tblcaption" value="pmpdmpkex"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="prag"><phrase id="fldcaption" value="PRAG"/>
+</field>
+<field id="publ"><phrase id="fldcaption" value="PUBL"/>
+</field>
+</table>
+<table id="pmpdmpkpr"><phrase id="tblcaption" value="pmpdmpkpr"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="defn"><phrase id="fldcaption" value="DEFN"/>
+</field>
+<field id="pcdt"><phrase id="fldcaption" value="PCDT"/>
+</field>
+<field id="prag"><phrase id="fldcaption" value="PRAG"/>
+</field>
+<field id="publ"><phrase id="fldcaption" value="PUBL"/>
+</field>
+<field id="rttp"><phrase id="fldcaption" value="RTTP"/>
+</field>
+</table>
+<table id="pmpdmpkty"><phrase id="tblcaption" value="pmpdmpkty"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="publ"><phrase id="fldcaption" value="PUBL"/>
+</field>
+<field id="styp"><phrase id="fldcaption" value="STYP"/>
+</field>
+<field id="tyst"><phrase id="fldcaption" value="TYST"/>
+</field>
+</table>
+<table id="pmpdmpkva"><phrase id="tblcaption" value="pmpdmpkva"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="dttp"><phrase id="fldcaption" value="DTTP"/>
+</field>
+<field id="mand"><phrase id="fldcaption" value="MAND"/>
+</field>
+<field id="mlen"><phrase id="fldcaption" value="MLEN"/>
+</field>
+<field id="prec"><phrase id="fldcaption" value="PREC"/>
+</field>
+<field id="publ"><phrase id="fldcaption" value="PUBL"/>
+</field>
+<field id="vacs"><phrase id="fldcaption" value="VACS"/>
+</field>
+<field id="vadf"><phrase id="fldcaption" value="VADF"/>
+</field>
+</table>
+<table id="pmpdmprct"><phrase id="tblcaption" value="pmpdmprct"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="lnkt"><phrase id="fldcaption" value="LNKT"/>
+</field>
+<field id="pcdt"><phrase id="fldcaption" value="PCDT"/>
+</field>
+<field id="pctp"><phrase id="fldcaption" value="PCTP"/>
+</field>
+<field id="pnam"><phrase id="fldcaption" value="PNAM"/>
+</field>
+<field id="txtv"><phrase id="fldcaption" value="TXTV"/>
+</field>
+</table>
+<table id="pmpdmproc"><phrase id="tblcaption" value="pmpdmproc"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="foot"><phrase id="fldcaption" value="FOOT"/>
+</field>
+<field id="head"><phrase id="fldcaption" value="HEAD"/>
+</field>
+<field id="mnam"><phrase id="fldcaption" value="MNAM"/>
+</field>
+<field id="pcdt"><phrase id="fldcaption" value="PCDT"/>
+</field>
+<field id="txtv"><phrase id="fldcaption" value="TXTV"/>
+</field>
+</table>
+<table id="pmpdmprof"><phrase id="tblcaption" value="pmpdmprof"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="chal"><phrase id="fldcaption" value="CHAL"/>
+</field>
+<field id="chcs"><phrase id="fldcaption" value="CHCS"/>
+</field>
+<field id="chfm"><phrase id="fldcaption" value="CHFM"/>
+</field>
+<field id="chfu"><phrase id="fldcaption" value="CHFU"/>
+</field>
+<field id="chiv"><phrase id="fldcaption" value="CHIV"/>
+</field>
+<field id="chln"><phrase id="fldcaption" value="CHLN"/>
+</field>
+<field id="chna"><phrase id="fldcaption" value="CHNA"/>
+</field>
+<field id="chrf"><phrase id="fldcaption" value="CHRF"/>
+</field>
+<field id="chrl"><phrase id="fldcaption" value="CHRL"/>
+</field>
+<field id="chvl"><phrase id="fldcaption" value="CHVL"/>
+</field>
+<field id="chxl"><phrase id="fldcaption" value="CHXL"/>
+</field>
+<field id="clss"><phrase id="fldcaption" value="CLSS"/>
+</field>
+<field id="coln"><phrase id="fldcaption" value="COLN"/>
+</field>
+<field id="dfdy"><phrase id="fldcaption" value="DFDY"/>
+</field>
+<field id="dfhr"><phrase id="fldcaption" value="DFHR"/>
+</field>
+<field id="dfmi"><phrase id="fldcaption" value="DFMI"/>
+</field>
+<field id="dfmo"><phrase id="fldcaption" value="DFMO"/>
+</field>
+<field id="dfsc"><phrase id="fldcaption" value="DFSC"/>
+</field>
+<field id="dfyr"><phrase id="fldcaption" value="DFYR"/>
+</field>
+<field id="dldy"><phrase id="fldcaption" value="DLDY"/>
+</field>
+<field id="dlhr"><phrase id="fldcaption" value="DLHR"/>
+</field>
+<field id="dlmi"><phrase id="fldcaption" value="DLMI"/>
+</field>
+<field id="dlmo"><phrase id="fldcaption" value="DLMO"/>
+</field>
+<field id="dlsc"><phrase id="fldcaption" value="DLSC"/>
+</field>
+<field id="dlyr"><phrase id="fldcaption" value="DLYR"/>
+</field>
+<field id="dsdy"><phrase id="fldcaption" value="DSDY"/>
+</field>
+<field id="dshr"><phrase id="fldcaption" value="DSHR"/>
+</field>
+<field id="dsmi"><phrase id="fldcaption" value="DSMI"/>
+</field>
+<field id="dsmo"><phrase id="fldcaption" value="DSMO"/>
+</field>
+<field id="dssc"><phrase id="fldcaption" value="DSSC"/>
+</field>
+<field id="dsyr"><phrase id="fldcaption" value="DSYR"/>
+</field>
+<field id="hqry"><phrase id="fldcaption" value="HQRY"/>
+</field>
+<field id="nbdc"><phrase id="fldcaption" value="NBDC"/>
+</field>
+<field id="nbdg"><phrase id="fldcaption" value="NBDG"/>
+</field>
+<field id="nbhv"><phrase id="fldcaption" value="NBHV"/>
+</field>
+<field id="nblv"><phrase id="fldcaption" value="NBLV"/>
+</field>
+<field id="nbst"><phrase id="fldcaption" value="NBST"/>
+</field>
+<field id="odsl"><phrase id="fldcaption" value="ODSL"/>
+</field>
+<field id="odsn"><phrase id="fldcaption" value="ODSN"/>
+</field>
+<field id="odsp"><phrase id="fldcaption" value="ODSP"/>
+</field>
+<field id="ofil"><phrase id="fldcaption" value="OFIL"/>
+</field>
+<field id="sequ"><phrase id="fldcaption" value="SEQU"/>
+</field>
+<field id="tabl"><phrase id="fldcaption" value="TABL"/>
+</field>
+<field id="vals"><phrase id="fldcaption" value="VALS"/>
+</field>
+<field id="vsrc"><phrase id="fldcaption" value="VSRC"/>
+</field>
+</table>
+<table id="pmpdmrefr"><phrase id="tblcaption" value="pmpdmrefr"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="card"><phrase id="fldcaption" value="CARD"/>
+</field>
+<field id="cmmt"><phrase id="fldcaption" value="CMMT"/>
+</field>
+<field id="cprt"><phrase id="fldcaption" value="CPRT"/>
+</field>
+<field id="crol"><phrase id="fldcaption" value="CROL"/>
+</field>
+<field id="drul"><phrase id="fldcaption" value="DRUL"/>
+</field>
+<field id="fkcn"><phrase id="fldcaption" value="FKCN"/>
+</field>
+<field id="gene"><phrase id="fldcaption" value="GENE"/>
+</field>
+<field id="impl"><phrase id="fldcaption" value="IMPL"/>
+</field>
+<field id="prol"><phrase id="fldcaption" value="PROL"/>
+</field>
+<field id="srtj"><phrase id="fldcaption" value="SRTJ"/>
+</field>
+<field id="urul"><phrase id="fldcaption" value="URUL"/>
+</field>
+</table>
+<table id="pmpdmrole"><phrase id="tblcaption" value="pmpdmrole"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="grnt"><phrase id="fldcaption" value="GRNT"/>
+</field>
+<field id="grtw"><phrase id="fldcaption" value="GRTW"/>
+</field>
+<field id="pass"><phrase id="fldcaption" value="PASS"/>
+</field>
+<field id="rvok"><phrase id="fldcaption" value="RVOK"/>
+</field>
+</table>
+<table id="pmpdmrscl"><phrase id="tblcaption" value="pmpdmrscl"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="dttp"><phrase id="fldcaption" value="DTTP"/>
+</field>
+<field id="isel"><phrase id="fldcaption" value="ISEL"/>
+</field>
+</table>
+<table id="pmpdmsqnc"><phrase id="tblcaption" value="pmpdmsqnc"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="opts"><phrase id="fldcaption" value="OPTS"/>
+</field>
+</table>
+<table id="pmpdmsynm"><phrase id="tblcaption" value="pmpdmsynm"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="alia"><phrase id="fldcaption" value="ALIA"/>
+</field>
+<field id="publ"><phrase id="fldcaption" value="PUBL"/>
+</field>
+</table>
+<table id="pmpdmtabl"><phrase id="tblcaption" value="pmpdmtabl"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="ckcn"><phrase id="fldcaption" value="CKCN"/>
+</field>
+<field id="crul"><phrase id="fldcaption" value="CRUL"/>
+</field>
+<field id="dtyp"><phrase id="fldcaption" value="DTYP"/>
+</field>
+<field id="foot"><phrase id="fldcaption" value="FOOT"/>
+</field>
+<field id="gene"><phrase id="fldcaption" value="GENE"/>
+</field>
+<field id="head"><phrase id="fldcaption" value="HEAD"/>
+</field>
+<field id="nbrc"><phrase id="fldcaption" value="NBRC"/>
+</field>
+<field id="opts"><phrase id="fldcaption" value="OPTS"/>
+</field>
+<field id="srul"><phrase id="fldcaption" value="SRUL"/>
+</field>
+<field id="tstd"><phrase id="fldcaption" value="TSTD"/>
+</field>
+<field id="ttyp"><phrase id="fldcaption" value="TTYP"/>
+</field>
+<field id="xelt"><phrase id="fldcaption" value="XELT"/>
+</field>
+<field id="xsch"><phrase id="fldcaption" value="XSCH"/>
+</field>
+</table>
+<table id="pmpdmtkey"><phrase id="tblcaption" value="pmpdmtkey"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="cnst"><phrase id="fldcaption" value="CNST"/>
+</field>
+<field id="opts"><phrase id="fldcaption" value="OPTS"/>
+</field>
+</table>
+<table id="pmpdmtrgi"><phrase id="tblcaption" value="pmpdmtrgi"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="decl"><phrase id="fldcaption" value="DECL"/>
+</field>
+<field id="txtv"><phrase id="fldcaption" value="TXTV"/>
+</field>
+</table>
+<table id="pmpdmtrgr"><phrase id="tblcaption" value="pmpdmtrgr"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="evnt"><phrase id="fldcaption" value="EVNT"/>
+</field>
+<field id="gene"><phrase id="fldcaption" value="GENE"/>
+</field>
+<field id="mnam"><phrase id="fldcaption" value="MNAM"/>
+</field>
+<field id="ordr"><phrase id="fldcaption" value="ORDR"/>
+</field>
+<field id="ttim"><phrase id="fldcaption" value="TTIM"/>
+</field>
+<field id="txtv"><phrase id="fldcaption" value="TXTV"/>
+</field>
+</table>
+<table id="pmpdmtrgt"><phrase id="tblcaption" value="pmpdmtrgt"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="evnt"><phrase id="fldcaption" value="EVNT"/>
+</field>
+<field id="tnam"><phrase id="fldcaption" value="TNAM"/>
+</field>
+<field id="trtp"><phrase id="fldcaption" value="TRTP"/>
+</field>
+<field id="ttim"><phrase id="fldcaption" value="TTIM"/>
+</field>
+<field id="txtv"><phrase id="fldcaption" value="TXTV"/>
+</field>
+<field id="vwtr"><phrase id="fldcaption" value="VWTR"/>
+</field>
+</table>
+<table id="pmpdmuser"><phrase id="tblcaption" value="pmpdmuser"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="gene"><phrase id="fldcaption" value="GENE"/>
+</field>
+<field id="grnt"><phrase id="fldcaption" value="GRNT"/>
+</field>
+<field id="grtw"><phrase id="fldcaption" value="GRTW"/>
+</field>
+<field id="opts"><phrase id="fldcaption" value="OPTS"/>
+</field>
+<field id="pass"><phrase id="fldcaption" value="PASS"/>
+</field>
+<field id="rvok"><phrase id="fldcaption" value="RVOK"/>
+</field>
+</table>
+<table id="pmpdmvidx"><phrase id="tblcaption" value="pmpdmvidx"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="opts"><phrase id="fldcaption" value="OPTS"/>
+</field>
+<field id="otyp"><phrase id="fldcaption" value="OTYP"/>
+</field>
+<field id="uniq"><phrase id="fldcaption" value="UNIQ"/>
+</field>
+</table>
+<table id="pmpdmview"><phrase id="tblcaption" value="pmpdmview"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="dtyp"><phrase id="fldcaption" value="DTYP"/>
+</field>
+<field id="foot"><phrase id="fldcaption" value="FOOT"/>
+</field>
+<field id="gene"><phrase id="fldcaption" value="GENE"/>
+</field>
+<field id="head"><phrase id="fldcaption" value="HEAD"/>
+</field>
+<field id="opts"><phrase id="fldcaption" value="OPTS"/>
+</field>
+<field id="tsql"><phrase id="fldcaption" value="TSQL"/>
+</field>
+<field id="ttyp"><phrase id="fldcaption" value="TTYP"/>
+</field>
+<field id="usag"><phrase id="fldcaption" value="USAG"/>
+</field>
+<field id="usql"><phrase id="fldcaption" value="USQL"/>
+</field>
+<field id="vsql"><phrase id="fldcaption" value="VSQL"/>
+</field>
+<field id="xelt"><phrase id="fldcaption" value="XELT"/>
+</field>
+<field id="xsch"><phrase id="fldcaption" value="XSCH"/>
+</field>
+</table>
+<table id="pmpdmviwc"><phrase id="tblcaption" value="pmpdmviwc"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="ccod"><phrase id="fldcaption" value="CCOD"/>
+</field>
+<field id="ccom"><phrase id="fldcaption" value="CCOM"/>
+</field>
+<field id="cdtp"><phrase id="fldcaption" value="CDTP"/>
+</field>
+<field id="cnam"><phrase id="fldcaption" value="CNAM"/>
+</field>
+<field id="crul"><phrase id="fldcaption" value="CRUL"/>
+</field>
+<field id="disp"><phrase id="fldcaption" value="DISP"/>
+</field>
+<field id="dttp"><phrase id="fldcaption" value="DTTP"/>
+</field>
+<field id="dval"><phrase id="fldcaption" value="DVAL"/>
+</field>
+<field id="frmt"><phrase id="fldcaption" value="FRMT"/>
+</field>
+<field id="hval"><phrase id="fldcaption" value="HVAL"/>
+</field>
+<field id="lowr"><phrase id="fldcaption" value="LOWR"/>
+</field>
+<field id="lval"><phrase id="fldcaption" value="LVAL"/>
+</field>
+<field id="mlen"><phrase id="fldcaption" value="MLEN"/>
+</field>
+<field id="nmdf"><phrase id="fldcaption" value="NMDF"/>
+</field>
+<field id="prec"><phrase id="fldcaption" value="PREC"/>
+</field>
+<field id="srul"><phrase id="fldcaption" value="SRUL"/>
+</field>
+<field id="unit"><phrase id="fldcaption" value="UNIT"/>
+</field>
+<field id="uppr"><phrase id="fldcaption" value="UPPR"/>
+</field>
+<field id="vals"><phrase id="fldcaption" value="VALS"/>
+</field>
+</table>
+<table id="pmpdmvref"><phrase id="tblcaption" value="pmpdmvref"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="crol"><phrase id="fldcaption" value="CROL"/>
+</field>
+<field id="prol"><phrase id="fldcaption" value="PROL"/>
+</field>
+</table>
+<table id="pmpdmwprm"><phrase id="tblcaption" value="pmpdmwprm"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="dttp"><phrase id="fldcaption" value="DTTP"/>
+</field>
+<field id="isel"><phrase id="fldcaption" value="ISEL"/>
+</field>
+<field id="ptyp"><phrase id="fldcaption" value="PTYP"/>
+</field>
+<field id="wpdv"><phrase id="fldcaption" value="WPDV"/>
+</field>
+</table>
+<table id="pmpdmwsop"><phrase id="tblcaption" value="pmpdmwsop"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="cnus"><phrase id="fldcaption" value="CNUS"/>
+</field>
+<field id="impl"><phrase id="fldcaption" value="IMPL"/>
+</field>
+<field id="otyp"><phrase id="fldcaption" value="OTYP"/>
+</field>
+<field id="raut"><phrase id="fldcaption" value="RAUT"/>
+</field>
+<field id="scnc"><phrase id="fldcaption" value="SCNC"/>
+</field>
+</table>
+<table id="pmpdmwsrv"><phrase id="tblcaption" value="pmpdmwsrv"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="cnus"><phrase id="fldcaption" value="CNUS"/>
+</field>
+<field id="lpat"><phrase id="fldcaption" value="LPAT"/>
+</field>
+<field id="raut"><phrase id="fldcaption" value="RAUT"/>
+</field>
+<field id="scnc"><phrase id="fldcaption" value="SCNC"/>
+</field>
+<field id="wtyp"><phrase id="fldcaption" value="WTYP"/>
+</field>
+</table>
+<table id="pmperm"><phrase id="tblcaption" value="pmperm"/>
+<field id="poid"><phrase id="fldcaption" value="POID"/>
+</field>
+<field id="rusr"><phrase id="fldcaption" value="RUSR"/>
+</field>
+<field id="oprm"><phrase id="fldcaption" value="OPRM"/>
+</field>
+</table>
+<table id="pmpsel"><phrase id="tblcaption" value="pmpsel"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="cflt"><phrase id="fldcaption" value="CFLT"/>
+</field>
+<field id="crtr"><phrase id="fldcaption" value="CRTR"/>
+</field>
+<field id="lcls"><phrase id="fldcaption" value="LCLS"/>
+</field>
+<field id="mgid"><phrase id="fldcaption" value="MGID"/>
+</field>
+<field id="sblb"><phrase id="fldcaption" value="SBLB"/>
+</field>
+<field id="smod"><phrase id="fldcaption" value="SMOD"/>
+</field>
+</table>
+<table id="pmpslm"><phrase id="tblcaption" value="pmpslm"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="fnam"><phrase id="fldcaption" value="FNAM"/>
+</field>
+<field id="shct"><phrase id="fldcaption" value="SHCT"/>
+</field>
+<field id="subo"><phrase id="fldcaption" value="SUBO"/>
+</field>
+</table>
+<table id="pmrepl"><phrase id="tblcaption" value="pmrepl"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="gene"><phrase id="fldcaption" value="GENE"/>
+</field>
+<field id="rcls"><phrase id="fldcaption" value="RCLS"/>
+</field>
+<field id="rnat"><phrase id="fldcaption" value="RNAT"/>
+</field>
+<field id="rnco"><phrase id="fldcaption" value="RNCO"/>
+</field>
+<field id="roid"><phrase id="fldcaption" value="ROID"/>
+</field>
+<field id="ruol"><phrase id="fldcaption" value="RUOL"/>
+</field>
+</table>
+<table id="pmrlsh"><phrase id="tblcaption" value="pmrlsh"/>
+<field id="rtyp"><phrase id="fldcaption" value="RTYP"/>
+</field>
+<field id="srce"><phrase id="fldcaption" value="SRCE"/>
+</field>
+<field id="trgt"><phrase id="fldcaption" value="TRGT"/>
+</field>
+<field id="prnt"><phrase id="fldcaption" value="PRNT"/>
+</field>
+<field id="numr"><phrase id="fldcaption" value="NUMR"/>
+</field>
+</table>
+<table id="pmrltn"><phrase id="tblcaption" value="pmrltn"/>
+<field id="rltn"><phrase id="fldcaption" value="RLTN"/>
+</field>
+<field id="libr"><phrase id="fldcaption" value="LIBR"/>
+</field>
+<field id="clss"><phrase id="fldcaption" value="CLSS"/>
+</field>
+<field id="dsid"><phrase id="fldcaption" value="DSID"/>
+</field>
+<field id="name"><phrase id="fldcaption" value="NAME"/>
+</field>
+<field id="code"><phrase id="fldcaption" value="CODE"/>
+</field>
+<field id="flgs"><phrase id="fldcaption" value="FLGS"/>
+</field>
+<field id="prnt"><phrase id="fldcaption" value="PRNT"/>
+</field>
+<field id="nfnd"><phrase id="fldcaption" value="NFND"/>
+</field>
+<field id="seqn"><phrase id="fldcaption" value="SEQN"/>
+</field>
+</table>
+<table id="pmrltx"><phrase id="tblcaption" value="pmrltx"/>
+<field id="clss"><phrase id="fldcaption" value="CLSS"/>
+</field>
+<field id="dsid"><phrase id="fldcaption" value="DSID"/>
+</field>
+<field id="name"><phrase id="fldcaption" value="NAME"/>
+</field>
+<field id="code"><phrase id="fldcaption" value="CODE"/>
+</field>
+<field id="flgs"><phrase id="fldcaption" value="FLGS"/>
+</field>
+<field id="prnt"><phrase id="fldcaption" value="PRNT"/>
+</field>
+<field id="nfnd"><phrase id="fldcaption" value="NFND"/>
+</field>
+<field id="seqn"><phrase id="fldcaption" value="SEQN"/>
+</field>
+</table>
+<table id="pmrmap"><phrase id="tblcaption" value="pmrmap"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="crtr"><phrase id="fldcaption" value="CRTR"/>
+</field>
+<field id="delt"><phrase id="fldcaption" value="DELT"/>
+</field>
+<field id="expr"><phrase id="fldcaption" value="EXPR"/>
+</field>
+<field id="insr"><phrase id="fldcaption" value="INSR"/>
+</field>
+<field id="inst"><phrase id="fldcaption" value="INST"/>
+</field>
+<field id="updt"><phrase id="fldcaption" value="UPDT"/>
+</field>
+</table>
+<table id="pmrplg"><phrase id="tblcaption" value="pmrplg"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="cglb"><phrase id="fldcaption" value="CGLB"/>
+</field>
+<field id="fmly"><phrase id="fldcaption" value="FMLY"/>
+</field>
+<field id="sfml"><phrase id="fldcaption" value="SFML"/>
+</field>
+</table>
+<table id="pmrprt"><phrase id="tblcaption" value="pmrprt"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="avsn"><phrase id="fldcaption" value="AVSN"/>
+</field>
+<field id="cssf"><phrase id="fldcaption" value="CSSF"/>
+</field>
+<field id="fpau"><phrase id="fldcaption" value="FPAU"/>
+</field>
+<field id="fpdt"><phrase id="fldcaption" value="FPDT"/>
+</field>
+<field id="fptt"><phrase id="fldcaption" value="FPTT"/>
+</field>
+<field id="fpvs"><phrase id="fldcaption" value="FPVS"/>
+</field>
+<field id="ftrf"><phrase id="fldcaption" value="FTRF"/>
+</field>
+<field id="ftrs"><phrase id="fldcaption" value="FTRS"/>
+</field>
+<field id="hdrf"><phrase id="fldcaption" value="HDRF"/>
+</field>
+<field id="hdrs"><phrase id="fldcaption" value="HDRS"/>
+</field>
+<field id="hfau"><phrase id="fldcaption" value="HFAU"/>
+</field>
+<field id="hfdt"><phrase id="fldcaption" value="HFDT"/>
+</field>
+<field id="hfpg"><phrase id="fldcaption" value="HFPG"/>
+</field>
+<field id="hfsm"><phrase id="fldcaption" value="HFSM"/>
+</field>
+<field id="hftt"><phrase id="fldcaption" value="HFTT"/>
+</field>
+<field id="hfvs"><phrase id="fldcaption" value="HFVS"/>
+</field>
+<field id="hifm"><phrase id="fldcaption" value="HIFM"/>
+</field>
+<field id="hlpn"><phrase id="fldcaption" value="HLPN"/>
+</field>
+<field id="hlrn"><phrase id="fldcaption" value="HLRN"/>
+</field>
+<field id="homf"><phrase id="fldcaption" value="HOMF"/>
+</field>
+<field id="hpbk"><phrase id="fldcaption" value="HPBK"/>
+</field>
+<field id="htcw"><phrase id="fldcaption" value="HTCW"/>
+</field>
+<field id="htdp"><phrase id="fldcaption" value="HTDP"/>
+</field>
+<field id="htmp"><phrase id="fldcaption" value="HTMP"/>
+</field>
+<field id="rpsm"><phrase id="fldcaption" value="RPSM"/>
+</field>
+<field id="rtmp"><phrase id="fldcaption" value="RTMP"/>
+</field>
+<field id="sept"><phrase id="fldcaption" value="SEPT"/>
+</field>
+<field id="snum"><phrase id="fldcaption" value="SNUM"/>
+</field>
+<field id="ushf"><phrase id="fldcaption" value="USHF"/>
+</field>
+</table>
+<table id="pmrqmgrpe"><phrase id="tblcaption" value="pmrqmgrpe"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="emad"><phrase id="fldcaption" value="EMAD"/>
+</field>
+</table>
+<table id="pmrqmrqmt"><phrase id="tblcaption" value="pmrqmrqmt"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="fopt"><phrase id="fldcaption" value="FOPT"/>
+</field>
+<field id="nmsp"><phrase id="fldcaption" value="NMSP"/>
+</field>
+<field id="prty"><phrase id="fldcaption" value="PRTY"/>
+</field>
+<field id="risk"><phrase id="fldcaption" value="RISK"/>
+</field>
+<field id="rtyp"><phrase id="fldcaption" value="RTYP"/>
+</field>
+<field id="seld"><phrase id="fldcaption" value="SELD"/>
+</field>
+<field id="stts"><phrase id="fldcaption" value="STTS"/>
+</field>
+<field id="ucod"><phrase id="fldcaption" value="UCOD"/>
+</field>
+<field id="vrfm"><phrase id="fldcaption" value="VRFM"/>
+</field>
+<field id="wkd2"><phrase id="fldcaption" value="WKD2"/>
+</field>
+<field id="wkd3"><phrase id="fldcaption" value="WKD3"/>
+</field>
+<field id="wkd4"><phrase id="fldcaption" value="WKD4"/>
+</field>
+<field id="wkld"><phrase id="fldcaption" value="WKLD"/>
+</field>
+</table>
+<table id="pmrqmtlnk"><phrase id="tblcaption" value="pmrqmtlnk"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="bkmk"><phrase id="fldcaption" value="BKMK"/>
+</field>
+<field id="lktp"><phrase id="fldcaption" value="LKTP"/>
+</field>
+</table>
+<table id="pmrqmuser"><phrase id="tblcaption" value="pmrqmuser"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="emad"><phrase id="fldcaption" value="EMAD"/>
+</field>
+</table>
+<table id="pmrqmusra"><phrase id="tblcaption" value="pmrqmusra"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="atyp"><phrase id="fldcaption" value="ATYP"/>
+</field>
+</table>
+<table id="pmrule"><phrase id="tblcaption" value="pmrule"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="cexp"><phrase id="fldcaption" value="CEXP"/>
+</field>
+<field id="flag"><phrase id="fldcaption" value="FLAG"/>
+</field>
+<field id="oclc"><phrase id="fldcaption" value="OCLC"/>
+</field>
+<field id="rtyp"><phrase id="fldcaption" value="RTYP"/>
+</field>
+<field id="sexp"><phrase id="fldcaption" value="SEXP"/>
+</field>
+</table>
+<table id="pmseqn"><phrase id="tblcaption" value="pmseqn"/>
+<field id="name"><phrase id="fldcaption" value="NAME"/>
+</field>
+<field id="vale"><phrase id="fldcaption" value="VALE"/>
+</field>
+</table>
+<table id="pmsmap"><phrase id="tblcaption" value="pmsmap"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="alia"><phrase id="fldcaption" value="ALIA"/>
+</field>
+<field id="expr"><phrase id="fldcaption" value="EXPR"/>
+</field>
+</table>
+<table id="pmsrpl"><phrase id="tblcaption" value="pmsrpl"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="rcls"><phrase id="fldcaption" value="RCLS"/>
+</field>
+<field id="rnat"><phrase id="fldcaption" value="RNAT"/>
+</field>
+<field id="rnco"><phrase id="fldcaption" value="RNCO"/>
+</field>
+<field id="roid"><phrase id="fldcaption" value="ROID"/>
+</field>
+<field id="ruol"><phrase id="fldcaption" value="RUOL"/>
+</field>
+</table>
+<table id="pmstng"><phrase id="tblcaption" value="pmstng"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="fnam"><phrase id="fldcaption" value="FNAM"/>
+</field>
+<field id="stng"><phrase id="fldcaption" value="STNG"/>
+</field>
+<field id="xtrn"><phrase id="fldcaption" value="XTRN"/>
+</field>
+</table>
+<table id="pmtemp"><phrase id="tblcaption" value="pmtemp"/>
+<field id="sess"><phrase id="fldcaption" value="SESS"/>
+</field>
+<field id="num1"><phrase id="fldcaption" value="NUM1"/>
+</field>
+<field id="num2"><phrase id="fldcaption" value="NUM2"/>
+</field>
+<field id="str1"><phrase id="fldcaption" value="STR1"/>
+</field>
+<field id="str2"><phrase id="fldcaption" value="STR2"/>
+</field>
+</table>
+<table id="pmtext"><phrase id="tblcaption" value="pmtext"/>
+<field id="txid"><phrase id="fldcaption" value="TXID"/>
+</field>
+<field id="numr"><phrase id="fldcaption" value="NUMR"/>
+</field>
+<field id="tlen"><phrase id="fldcaption" value="TLEN"/>
+</field>
+<field id="tdat"><phrase id="fldcaption" value="TDAT"/>
+</field>
+</table>
+<table id="pmtmp2"><phrase id="tblcaption" value="pmtmp 2"/>
+<field id="sess"><phrase id="fldcaption" value="SESS"/>
+</field>
+<field id="num1"><phrase id="fldcaption" value="NUM1"/>
+</field>
+<field id="num2"><phrase id="fldcaption" value="NUM2"/>
+</field>
+<field id="str1"><phrase id="fldcaption" value="STR1"/>
+</field>
+<field id="str2"><phrase id="fldcaption" value="STR2"/>
+</field>
+</table>
+<table id="pmtrfm"><phrase id="tblcaption" value="pmtrfm"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="dcol"><phrase id="fldcaption" value="DCOL"/>
+</field>
+<field id="ktbl"><phrase id="fldcaption" value="KTBL"/>
+</field>
+<field id="tlst"><phrase id="fldcaption" value="TLST"/>
+</field>
+</table>
+<table id="pmtrfs"><phrase id="tblcaption" value="pmtrfs"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="obid"><phrase id="fldcaption" value="OBID"/>
+</field>
+<field id="orgi"><phrase id="fldcaption" value="ORGI"/>
+</field>
+</table>
+<table id="pmtrft"><phrase id="tblcaption" value="pmtrft"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="hmap"><phrase id="fldcaption" value="HMAP"/>
+</field>
+</table>
+<table id="pmuser"><phrase id="tblcaption" value="pmuser"/>
+<field id="rusr"><phrase id="fldcaption" value="RUSR"/>
+</field>
+<field id="name"><phrase id="fldcaption" value="NAME"/>
+</field>
+<field id="code"><phrase id="fldcaption" value="CODE"/>
+</field>
+<field id="syst"><phrase id="fldcaption" value="SYST"/>
+</field>
+<field id="rght"><phrase id="fldcaption" value="RGHT"/>
+</field>
+<field id="cmmt"><phrase id="fldcaption" value="CMMT"/>
+</field>
+<field id="emad"><phrase id="fldcaption" value="EMAD"/>
+</field>
+<field id="isgr"><phrase id="fldcaption" value="ISGR"/>
+</field>
+<field id="pswd"><phrase id="fldcaption" value="PSWD"/>
+</field>
+<field id="ocus"><phrase id="fldcaption" value="OCUS"/>
+</field>
+<field id="ocdt"><phrase id="fldcaption" value="OCDT"/>
+</field>
+<field id="omus"><phrase id="fldcaption" value="OMUS"/>
+</field>
+<field id="omdt"><phrase id="fldcaption" value="OMDT"/>
+</field>
+</table>
+<table id="pmxdoc"><phrase id="tblcaption" value="pmxdoc"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="tnsp"><phrase id="fldcaption" value="TNSP"/>
+</field>
+<field id="xsdl"><phrase id="fldcaption" value="XSDL"/>
+</field>
+<field id="xtxt"><phrase id="fldcaption" value="XTXT"/>
+</field>
+</table>
+<table id="pmxfil"><phrase id="tblcaption" value="pmxfil"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="cnti"><phrase id="fldcaption" value="CNTI"/>
+</field>
+<field id="xnam"><phrase id="fldcaption" value="XNAM"/>
+</field>
+</table>
+<table id="pmxnsp"><phrase id="tblcaption" value="pmxnsp"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="nuri"><phrase id="fldcaption" value="NURI"/>
+</field>
+<field id="prfx"><phrase id="fldcaption" value="PRFX"/>
+</field>
+</table>
+<table id="pmxsmaitm"><phrase id="tblcaption" value="pmxsmaitm"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="cnnt"><phrase id="fldcaption" value="CNNT"/>
+</field>
+<field id="lang"><phrase id="fldcaption" value="LANG"/>
+</field>
+<field id="srce"><phrase id="fldcaption" value="SRCE"/>
+</field>
+<field id="xsid"><phrase id="fldcaption" value="XSID"/>
+</field>
+</table>
+<table id="pmxsmannt"><phrase id="tblcaption" value="pmxsmannt"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="xsid"><phrase id="fldcaption" value="XSID"/>
+</field>
+</table>
+<table id="pmxsmcmap"><phrase id="tblcaption" value="pmxsmcmap"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="crtr"><phrase id="fldcaption" value="CRTR"/>
+</field>
+<field id="delt"><phrase id="fldcaption" value="DELT"/>
+</field>
+<field id="expr"><phrase id="fldcaption" value="EXPR"/>
+</field>
+<field id="inst"><phrase id="fldcaption" value="INST"/>
+</field>
+<field id="revb"><phrase id="fldcaption" value="REVB"/>
+</field>
+<field id="slct"><phrase id="fldcaption" value="SLCT"/>
+</field>
+<field id="updt"><phrase id="fldcaption" value="UPDT"/>
+</field>
+</table>
+<table id="pmxsmcmpt"><phrase id="tblcaption" value="pmxsmcmpt"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="abst"><phrase id="fldcaption" value="ABST"/>
+</field>
+<field id="atfm"><phrase id="fldcaption" value="ATFM"/>
+</field>
+<field id="ause"><phrase id="fldcaption" value="AUSE"/>
+</field>
+<field id="blck"><phrase id="fldcaption" value="BLCK"/>
+</field>
+<field id="btpn"><phrase id="fldcaption" value="BTPN"/>
+</field>
+<field id="dfvl"><phrase id="fldcaption" value="DFVL"/>
+</field>
+<field id="elfm"><phrase id="fldcaption" value="ELFM"/>
+</field>
+<field id="finl"><phrase id="fldcaption" value="FINL"/>
+</field>
+<field id="fixd"><phrase id="fldcaption" value="FIXD"/>
+</field>
+<field id="fxvl"><phrase id="fldcaption" value="FXVL"/>
+</field>
+<field id="gtyp"><phrase id="fldcaption" value="GTYP"/>
+</field>
+<field id="itpn"><phrase id="fldcaption" value="ITPN"/>
+</field>
+<field id="mbtn"><phrase id="fldcaption" value="MBTN"/>
+</field>
+<field id="mixd"><phrase id="fldcaption" value="MIXD"/>
+</field>
+<field id="mnoc"><phrase id="fldcaption" value="MNOC"/>
+</field>
+<field id="mxoc"><phrase id="fldcaption" value="MXOC"/>
+</field>
+<field id="nill"><phrase id="fldcaption" value="NILL"/>
+</field>
+<field id="nmsp"><phrase id="fldcaption" value="NMSP"/>
+</field>
+<field id="pcnt"><phrase id="fldcaption" value="PCNT"/>
+</field>
+<field id="publ"><phrase id="fldcaption" value="PUBL"/>
+</field>
+<field id="rfnm"><phrase id="fldcaption" value="RFNM"/>
+</field>
+<field id="subn"><phrase id="fldcaption" value="SUBN"/>
+</field>
+<field id="syst"><phrase id="fldcaption" value="SYST"/>
+</field>
+<field id="tpnm"><phrase id="fldcaption" value="TPNM"/>
+</field>
+<field id="vale"><phrase id="fldcaption" value="VALE"/>
+</field>
+<field id="vals"><phrase id="fldcaption" value="VALS"/>
+</field>
+<field id="xpth"><phrase id="fldcaption" value="XPTH"/>
+</field>
+<field id="xsid"><phrase id="fldcaption" value="XSID"/>
+</field>
+</table>
+<table id="pmxsmdtsc"><phrase id="tblcaption" value="pmxsmdtsc"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="actp"><phrase id="fldcaption" value="ACTP"/>
+</field>
+<field id="dtsr"><phrase id="fldcaption" value="DTSR"/>
+</field>
+<field id="lgin"><phrase id="fldcaption" value="LGIN"/>
+</field>
+<field id="mtyp"><phrase id="fldcaption" value="MTYP"/>
+</field>
+<field id="pswd"><phrase id="fldcaption" value="PSWD"/>
+</field>
+</table>
+<table id="pmxsmentt"><phrase id="tblcaption" value="pmxsmentt"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="notn"><phrase id="fldcaption" value="NOTN"/>
+</field>
+<field id="prmt"><phrase id="fldcaption" value="PRMT"/>
+</field>
+<field id="publ"><phrase id="fldcaption" value="PUBL"/>
+</field>
+<field id="syst"><phrase id="fldcaption" value="SYST"/>
+</field>
+<field id="vale"><phrase id="fldcaption" value="VALE"/>
+</field>
+</table>
+<table id="pmxsmlang"><phrase id="tblcaption" value="pmxsmlang"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="cglb"><phrase id="fldcaption" value="CGLB"/>
+</field>
+<field id="fmly"><phrase id="fldcaption" value="FMLY"/>
+</field>
+<field id="sfml"><phrase id="fldcaption" value="SFML"/>
+</field>
+</table>
+<table id="pmxsmxtrn"><phrase id="tblcaption" value="pmxsmxtrn"/>
+<field id="objt"><phrase id="fldcaption" value="OBJT"/>
+</field>
+<field id="nmsp"><phrase id="fldcaption" value="NMSP"/>
+</field>
+<field id="sche"><phrase id="fldcaption" value="SCHE"/>
+</field>
+<field id="xsid"><phrase id="fldcaption" value="XSID"/>
+</field>
+</table>
+<table id="sec_perfil"><phrase id="tblcaption" value="sec perfil"/>
+<field id="id_perfil"><phrase id="fldcaption" value="ID PERFIL"/>
+</field>
+<field id="des_perfil"><phrase id="fldcaption" value="DES PERFIL"/>
+</field>
+</table>
+<table id="sec_usuarios"><phrase id="tblcaption" value="sec usuarios"/>
+<field id="id_usuario"><phrase id="fldcaption" value="ID USUARIO"/>
+</field>
+<field id="des_usuario"><phrase id="fldcaption" value="DES USUARIO"/>
+</field>
+</table>
+<table id="sis_producto"><phrase id="tblcaption" value="sis producto"/>
+<field id="id_producto"><phrase id="fldcaption" value="ID PRODUCTO"/>
+</field>
+<field id="nom_producto"><phrase id="fldcaption" value="NOM PRODUCTO"/>
+</field>
+<field id="des_producto"><phrase id="fldcaption" value="DES PRODUCTO"/>
+</field>
+</table>
+</project>
+</ew-language>
